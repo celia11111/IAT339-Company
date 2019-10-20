@@ -56,7 +56,6 @@ header {
 }
 
 .clear button {
-
     background-color: transparent;
     border-color: gray;
     border-width: thin;
@@ -71,30 +70,34 @@ header {
 .list {
     height: auto;
     width: 100%;
-    display: inline-block;
-    align-items: center;
-
+    display: flex;
+  align-items:center;
+margin: 0em 10em;
 }
 
 .text {
     display: inline-block;
-    width: 80%;
+    width: 75%;
     text-align: right;
 
 }
 
-.text h2,
-.text p {
+/*
+.text h2 {
     display: inline;
-    font-size: 1.1em;
+    font-size: 1em;
     margin-right: 5em;
+}
+*/
 
+.listc h2{
+ font-size: 1em;
+text-align:center;    
 }
 
 .list img {
-    width: 8%;
-    margin-left: 11em;
-    margin-bottom: 0em;
+    width: 60%;
+   height: auto;
 }
 
 
@@ -115,4 +118,12 @@ h1 {
     font-size: 90%;
     font-style: normal;
     margin: 2em 10em;
+}
+
+.listc {
+    height: auto;
+    width:30%;
+    display: inline-block;
+    
+    
 }
