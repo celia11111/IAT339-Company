@@ -80,7 +80,7 @@ nav a:focus {
 /* dropdown nav bar */
 .dropdown {
     display: inline-block;
-    margin: 0em 2.5em;
+    margin: 1em 2.5em 0em 0em;
     overflow: hidden;
 }
 
@@ -90,19 +90,23 @@ nav a:focus {
     outline: none;
     color: black;
     padding: 1em 1em 0.5em 1em;
-    margin: 0em;
+    margin: 0em 0em 0.5em 0em;
     background-color: inherit;
     font: inherit;
     border-bottom: 0.2em;
     border-bottom-style: solid;
     border-color: transparent;
+    border-bottom-width: thick;
 
 }
 
 
 .dropdown:hover .dropbtn {
+
     border-bottom: 0.2em;
     border-bottom-style: solid;
+    border-bottom-color: #f66a9b;
+    border-bottom-width: thick;
 
 }
 
@@ -114,13 +118,6 @@ nav a:focus {
     z-index: 1;
 }
 
-/*
-.dropdown-content .header {
-    background: rgb(239, 189, 202);
-    padding: 16px;
-    color: white;
-}
-*/
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -143,7 +140,8 @@ nav a:focus {
 .column p:hover {
     border-bottom: 0.2em;
     border-bottom-style: solid;
-
+    border-bottom-color: #f66a9b;
+    border-bottom-width: medium;
 }
 
 .column p {
@@ -151,6 +149,7 @@ nav a:focus {
     border-bottom: 0.2em;
     border-bottom-style: solid;
     border-bottom-color: transparent;
+    border-bottom-width: medium;
     text-align: left;
     display: table;
     padding: 0.2em;
@@ -179,28 +178,70 @@ nav a:focus {
 }
 
 
-/* carousel */
-.carousel-inner img {
-    width: 100%;
-    /* Set width to 100% */
-    margin: auto;
 
-}
-
-.carousel-down img {
-    width: 100%;
-    margin: auto;
-
-}
 
 
 /* footer */
 footer {
     width: 100%;
     height: 4em;
-    background-color: #F8BACA;
+    background-color: #FCEFF3;
     font-size: 0.6em;
     padding: 2em 0em;
     text-align: center;
     margin: 0;
+}
+
+.sale {
+    width: 100%;
+}
+
+.sale1 {
+    margin: 5em;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F8BACA;
+    text-align: center;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+
+}
+
+
+.showimg {
+    width: 20%;
+    height: auto;
+    margin: 1em 1em 3em 1em;
+
+}
+
+.showitem {
+    width: 100%;
+}
+
+.showtitle {
+    font-size: 0.8em;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F8BACA;
+    text-align: center;
+    padding: 1em 0em 0.01em 0em;
+}
+
+.showbg {
+    width: 100%;
+    background-color: #F8BACA;
 }
