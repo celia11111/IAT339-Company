@@ -1,0 +1,119 @@
+body {
+    /*    font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
+    font-weight: 400;
+    margin: 0em;
+    background-color: #fef9fc;
+
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11%;
+    padding: 0.5em 0em 0em 0em;
+
+}
+
+.topright {
+    position: absolute;
+    top: 4rem;
+    right: 16px;
+}
+
+
+
+header {
+    background-color: #FCEFF3;
+
+}
+
+
+.imagebox {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0em 10em;
+
+}
+
+.box {
+    background-color: transparent;
+    width: 22%;
+    height: auto;
+
+
+}
+
+.box img {
+    width: 100%;
+    margin: auto;
+    opacity: 1;
+}
+
+.box img:hover,
+.box img:focus {
+    width: 100%;
+    margin: auto;
+    opacity: 0.7;
+
+}
+
+.box p {
+    font-size: 90%;
+    color: black;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 0em;
+}
+
+.box h2 {
+    font-size: 90%;
+    text-align: center;
+    color: black;
+    margin-top: 0.5em;
+    margin-bottom: 0.4em;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+h1 {
+    display: block;
+    border-bottom-style: solid;
+    border-color: gainsboro;
+    border-width: thin;
+    font-size: 90%;
+    font-style: normal;
+    margin: 2em 10em;
+}
+
+.load {
+    text-align: center;
+    margin: 1em 0em 3em 0em;
+
+}
+
+.load button {
+    font-size: 1em;
+    background-color: #f66a9b;
+    color: black;
+    width: 17em;
+    height: 3em;
+    opacity: 0.9;
+    border-style: none;
+
+}
+
+.load button:hover,
+.load button:focus {
+    color: white;
+    width: 17em;
+    height: 3em;
+    opacity: 0.7;
+
+
+}
