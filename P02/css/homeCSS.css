@@ -251,34 +251,3 @@ footer {
     width: 1.3%;
     margin-left: 1.6em;
 }
-
-.center{
-  padding:2em;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-color: #FCEFF3;
-}
-
-.center p{
-  padding-left: 4em;
-  padding-right:4em;
-  font-size: 20px;
-}
-
-.center img{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width:100%;
-  height:95%;
-}
-
-.shrink img{
-  display:inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  width:20%;
-  height:20%;
-}
