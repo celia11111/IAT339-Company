@@ -6,26 +6,36 @@
     <title>Kate Spade</title>
     <link rel="stylesheet" type="text/css" href="css/homeCSS.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
     <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
 
-    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
 
+            }
+        }
+    </script>
 </head>
 
 <body>
 
     <header>
         <div class="topright">
-<!--
+            <!--
             <a href="#"><span class="glyphicon glyphicon-log-in"></span>LOGIN</a>
             <a href="#"><span class="glyphicon glyphicon-log-in"></span>Shopping Bag</a>
 -->
-             <img class="right" alt="logo" src="img/login.png">
-            <a href="shoppingbag.html"><img class="right" alt="logo" src="img/icon.png"></a> 
+            <img class="right" alt="logo" src="img/login.png">
+            <a href="shoppingbag.html"><img class="right" alt="logo" src="img/icon.png"></a>
         </div>
-        <a  href="home.html">
+        <a href="home.html">
             <img class="logo" alt="logo" src="img/logo.png">
         </a>
 
@@ -34,168 +44,193 @@
 
     </header>
 
+    <div class="mobile">
 
-
-    <div class="navbar">
-
-
-        <div class="dropdown">
-            <button class="dropbtn"><a href="handbag.html">HANDBAG</a>
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-
-                <div class="row">
-
-                    <div class="column">
-                        <p href="shoulderBag.html">View All</p>
-                        <p href="shoulderBag.html">Shoulder Bags</p>
-                        <p>Totes</p>
-                        <p>Belt Bags</p>
-                        <p>Mini Bags</p>
-
-                    </div>
-                    <div class="column">
-                        <p>Satchels</p>
-                        <p>Clutches</p>
-                        <p>Totes</p>
-                        <p>Diaper Bags</p>
-
-
-                    </div>
-                    <div class="column">
-
-                        <img class="navimg" alt="product" src="https://ilikepromos.com/wp-content/uploads/2019/05/Kate-Spade-Sales-on-Sale.jpg">
-
-                    </div>
-                    <div class="column">
-
-                        <img class="navimg" alt="product" src="https://katespade.insnw.net/KateSpade/PXRU7662_001?$large$">
-
-                    </div>
-
+        <div class="topnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div id="myLinks">
+                <p></p>
+                <a href="handbag.html">HANDBAG</a>
+                <a href="accessories.html">ACCESSORIES</a>
+                <a href="events.html">EVENTS</a>
+                <a href="about.html">ABOUT</a>
+                <div class="mobilelogin">
+                    <a id="log">LOGIN</a>
+                    <a id="log" href="shoppingbag.html">SHOPPING BAG</a>
                 </div>
+                <p></p>
+
             </div>
+
         </div>
 
+    </div>
 
 
-        <div class="dropdown">
-            <button class="dropbtn"><a href="accessories.html">ACCESSORIES</a>
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
 
-                <div class="row">
+    <div class="ca">
 
-                    <div class="column">
-                        <p href="jewlry.html">Jewelry</p>
-                        <p>Rings</p>
-                        <p>Leather Goods</p>
-                        <p>Sunglasses</p>
-                        <p>Watches</p>
-                    </div>
+        <div class="navbar">
 
-                    <div class="column">
-                        <p>Tech</p>
-                        <p>Keyrings</p>
-                        <p>Fragrance</p>
-                    </div>
-                    <div class="column">
 
-                        <img class="navimg" alt="product" src="https://cdn.katespade.tech/na/assets/img/topnav/OCT2019_Flyout_Jewelry-01.jpg">
+            <div class="dropdown">
+                <button class="dropbtn"><a href="handbag.html">HANDBAG</a>
 
-                    </div>
-                    <div class="column">
+                </button>
+                <div class="dropdown-content">
 
-                        <img class="navimg" alt="product" src="https://katespade.insnw.net/KateSpade/PXRU7662_001?$large$">
+                    <div class="row">
+
+                        <div class="column">
+                            <p href="shoulderBag.html">View All</p>
+                            <p href="shoulderBag.html">Shoulder Bags</p>
+                            <p>Totes</p>
+                            <p>Belt Bags</p>
+                            <p>Mini Bags</p>
+
+                        </div>
+                        <div class="column">
+                            <p>Satchels</p>
+                            <p>Clutches</p>
+                            <p>Totes</p>
+                            <p>Diaper Bags</p>
+
+
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="https://ilikepromos.com/wp-content/uploads/2019/05/Kate-Spade-Sales-on-Sale.jpg">
+
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="https://katespade.insnw.net/KateSpade/PXRU7662_001?$large$">
+
+                        </div>
 
                     </div>
                 </div>
             </div>
-        </div>
 
 
 
+            <div class="dropdown">
+                <button class="dropbtn"><a href="accessories.html">ACCESSORIES</a>
+                  
+                </button>
+                <div class="dropdown-content">
 
+                    <div class="row">
 
-        <div class="dropdown">
-            <button class="dropbtn"><a href="events.html">EVENTS</a>
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
+                        <div class="column">
+                            <p href="jewlry.html">Jewelry</p>
+                            <p>Rings</p>
+                            <p>Leather Goods</p>
+                            <p>Sunglasses</p>
+                            <p>Watches</p>
+                        </div>
 
-                <div class="row">
+                        <div class="column">
+                            <p>Tech</p>
+                            <p>Keyrings</p>
+                            <p>Fragrance</p>
+                        </div>
+                        <div class="column">
 
-                    <div class="column">
+                            <img class="navimg" alt="product" src="https://cdn.katespade.tech/na/assets/img/topnav/OCT2019_Flyout_Jewelry-01.jpg">
 
-                        <p href="sale.html">Annual Sales</p>
-                        <p href="discount.html">Discount Code</p>
-                        <p>Fashion Shows</p>
-                        <p>Collection</p>
-                        <p>Personalization services</p>
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="https://katespade.insnw.net/KateSpade/PXRU7662_001?$large$">
+
+                        </div>
                     </div>
-
-                    <div class="column">
-
-                        <img class="navimg" alt="product" src="https://ilikepromos.com/wp-content/uploads/2019/05/Kate-Spade-Sales-on-Sale.jpg">
-
-                    </div>
-                    <div class="column">
-
-                        <img class="navimg" alt="product" src="img/salenave.png">
-
-                    </div>
-
                 </div>
             </div>
-        </div>
 
 
 
-        <div class="dropdown">
-            <button class="dropbtn"><a href="about.html">ABOUT</a>
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
 
-                <div class="row">
 
-                    <div class="column">
+            <div class="dropdown">
+                <button class="dropbtn"><a href="events.html">EVENTS</a>
+                
+                </button>
+                <div class="dropdown-content">
 
-                        <p href="location.html">Location</p>
-                        <p href="contacts.html">Contacts</p>
-                        <p>Kate Spade Group</p>
-                        <p>Student Program</p>
-                        <p>Investors</p>
+                    <div class="row">
 
-                    </div>
+                        <div class="column">
 
-                    <div class="column">
+                            <p href="sale.html">Annual Sales</p>
+                            <p href="discount.html">Discount Code</p>
+                            <p>Fashion Shows</p>
+                            <p>Collection</p>
+                            <p>Personalization services</p>
+                        </div>
 
-                        <p>On purpose</p>
-                        <p>Tapestry</p>
-                        <p>Responsibility</p>
+                        <div class="column">
 
-                    </div>
-                    <div class="column">
+                            <img class="navimg" alt="product" src="https://ilikepromos.com/wp-content/uploads/2019/05/Kate-Spade-Sales-on-Sale.jpg">
 
-                        <img class="navimg" alt="product" src="img/about.png">
+                        </div>
+                        <div class="column">
 
-                    </div>
-                    <div class="column">
+                            <img class="navimg" alt="product" src="img/salenave.png">
 
-                        <img class="navimg" alt="product" src="img/about2.png">
+                        </div>
 
                     </div>
-
-
                 </div>
             </div>
+
+
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="about.html">ABOUT</a>
+                </button>
+                <div class="dropdown-content">
+
+                    <div class="row">
+
+                        <div class="column">
+
+                            <p href="location.html">Location</p>
+                            <p href="contacts.html">Contacts</p>
+                            <p>Kate Spade Group</p>
+                            <p>Student Program</p>
+                            <p>Investors</p>
+
+                        </div>
+
+                        <div class="column">
+
+                            <p>On purpose</p>
+                            <p>Tapestry</p>
+                            <p>Responsibility</p>
+
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="img/about.png">
+
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="img/about2.png">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
         </div>
-
-
-
 
     </div>
     <img class="sale" alt="sale image" src="img/sale3.png">
@@ -229,66 +264,19 @@
             </div>
         </div>
     </div>
-    <!--
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     Indicators 
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
--->
 
-    <!-- Wrapper for slides -->
-    <!--
-<div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="img/sale.png" alt="Image">
-        <div class="carousel-caption">
-          <h3>Sale</h3>
-          <p>Brand new in Applle system</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="img/sale.png" alt="Image">
-        <div class="carousel-caption">
-          <h3>Shows</h3>
-          <p>A convenient comunication</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="img/sale.png" alt="Image">
-        <div class="carousel-caption">
-          <h3>New Arrival</h3>
-          <p>Enjoy new shopping experience</p>
-        </div>
-      </div>
-
-        <div class="item">
-        <img src="img/sale.png" alt="Image">
-        <div class="carousel-caption">
-          <h3>Multiple Flash Light Setting</h3>
-          <p>A equipment for emergency</p>
-        </div>
-      </div>
-
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-
-    </div>
--->
 
     <footer>
-
+<div class="footnav">
+        <button class="footbt"><a href="about.html">Style Guide</a>
+                </button>
+    <button class="footbt"><a href="about.html">Citation</a>
+                </button>
+    
+    <button class="footbt"><a href="about.html">Git Repository</a>
+                </button>
+        
+        </div>
         <p>
             2019 kate spade | all rights reserved privacy policy/your ca privacy rights, terms of use & interest based advertising policy, california transparency act & uk modern slavery act statement</p>
     </footer>
