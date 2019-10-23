@@ -7,12 +7,15 @@ body {
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 1120px) {
+@media screen and (min-width: 200px) and (max-width: 1120px) {
     .topright {
-        display: none;
+       overflow: hidden;
     }
 
-
+    .topright img {
+    display: none;
+    
+    }
     .logo {
         display: block;
         margin: 0 auto;
@@ -32,6 +35,8 @@ body {
     }
 
     .navbar {
+        
+        overflow: hidden;
         display: none;
     }
 
@@ -54,13 +59,17 @@ body {
     .topnav #myLinks {
         display: none;
     }
+    
+        .topnav #mysubs {
+        display: none;
+    }
 
     .topnav a {
         border-bottom: 0.2em;
         border-bottom-style: solid;
         border-bottom-color: transparent;
         border-bottom-width: thick;
-        color: black;
+        color: white;
         padding: 0.8em 1em;
         text-decoration: none;
         font-size: 17px;
@@ -90,7 +99,6 @@ body {
     }
 
     .mobilelogin {
-
         text-align: center;
     }
 
@@ -124,7 +132,7 @@ body {
         display: block;
         width: 11em;
         margin: -5.5em 45%;
-
+       
     }
 
     .topright {
@@ -146,7 +154,8 @@ body {
     }
 
     .navbar {
-        margin-top: -1em;
+        overflow: visible;
+        margin-top: -5em;
         font-size: 0.8em;
         overflow: hidden;
         text-align: center;
@@ -175,14 +184,12 @@ body {
 
     /* dropdown nav bar */
     .dropdown {
-
         display: inline-block;
         margin: 0em 1.2em 0em 1.2em;
         overflow: hidden;
     }
 
     .dropdown .dropbtn {
-
         font-size: 0.3em;
         border: none;
         outline: none;
@@ -208,7 +215,6 @@ body {
     }
 
     .dropdown-content {
-
         display: none;
         position: absolute;
         width: 100%;
@@ -493,16 +499,16 @@ footer {
 }
 
 .footbt a {
-color: black;
+    color: black;
     text-decoration: none;
 
 
 
 }
 
-footer p{
+footer p {
     padding-bottom: 2em;
-   padding-left: 1.5em;
+    padding-left: 1.5em;
     padding-right: 1.5em;
     background-color: #FCEFF3;
 }

@@ -47,92 +47,185 @@ header {
     margin-left: 1.6em;
 }
 
-.imagebox {
-    width: auto;
-    height: auto;
+@media screen and (min-width: 1120px) {
+    .imagebox {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-flow:row wrap;
+        align-content: flex-start;
+        justify-content:space-evenly;
+        margin: 0em 10em;
+
+
+    }
+
+    .box {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin: 0em 10em;
+        flex-direction: column;
+        background-color: transparent;
+        margin:auto;
 
+    }
+
+    .box img {
+        width: 15em;
+        margin: auto;
+        opacity: 1;
+        transition-duration: 0s;
+    }
+
+    .box img:hover,
+    .box img:focus {
+        margin: auto;
+        opacity: 0.7;
+
+    }
+
+    .box p {
+        font-size: 90%;
+        color: black;
+        text-align: center;
+        margin-bottom: 2em;
+        margin-top: 0em;
+    }
+
+    .box h2 {
+        font-size: 90%;
+        text-align: center;
+        color: black;
+        margin-top: 0.5em;
+        margin-bottom: 0.4em;
+    }
+
+    .box a {
+        text-decoration: none;
+    }
+
+    h1 {
+        display: block;
+        border-bottom-style: solid;
+        border-color: gainsboro;
+        border-width: thin;
+        font-size: 90%;
+        font-style: normal;
+        margin: 2em 10em;
+    }
+
+    .load {
+        text-align: center;
+        margin: 1em 0em 3em 0em;
+
+    }
+
+    .load button {
+        font-size: 1em;
+        background-color: #f66a9b;
+        color: black;
+        width: 17em;
+        height: 3em;
+        border-style: none;
+        transition-duration: 0.3s;
+
+    }
+
+    .load button:hover,
+    .load button:focus {
+        color: white;
+        width: 17em;
+        height: 3em;
+        opacity: 0.7;
+
+
+    }
 }
 
-.box {
-    background-color: transparent;
-    width: 22%;
-    height: auto;
+@media screen and (min-width: 200px) and (max-width: 1210px) {
+    .imagebox {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-flow: wrap;
+        justify-content:flex-start;
+        margin: 0em 10em;
 
 
-}
+    }
 
-.box img {
-    width: 100%;
-    margin: auto;
-    opacity: 1;
-    transition-duration: 0s;
-}
+    .box {
+        background-color: transparent;
+        margin: 1em;
 
-.box img:hover,
-.box img:focus {
-    width: 100%;
-    margin: auto;
-    opacity: 0.7;
+    }
 
-}
+    .box img {
+        width: 22em;
+        margin: auto;
+        opacity: 1;
+        transition-duration: 0s;
+    }
 
-.box p {
-    font-size: 90%;
-    color: black;
-    text-align: center;
-    margin-bottom: 2em;
-    margin-top: 0em;
-}
+    .box img:hover,
+    .box img:focus {
+        margin: auto;
+        opacity: 0.7;
 
-.box h2 {
-    font-size: 90%;
-    text-align: center;
-    color: black;
-    margin-top: 0.5em;
-    margin-bottom: 0.4em;
-}
+    }
 
-.box a {
-    text-decoration: none;
-}
+    .box p {
+        font-size: 90%;
+        color: black;
+        text-align: center;
+        margin-bottom: 2em;
+        margin-top: 0em;
+    }
 
-h1 {
-    display: block;
-    border-bottom-style: solid;
-    border-color: gainsboro;
-    border-width: thin;
-    font-size: 90%;
-    font-style: normal;
-    margin: 2em 10em;
-}
+    .box h2 {
+        font-size: 90%;
+        text-align: center;
+        color: black;
+        margin-top: 0.5em;
+        margin-bottom: 0.4em;
+    }
 
-.load {
-    text-align: center;
-    margin: 1em 0em 3em 0em;
+    .box a {
+        text-decoration: none;
+    }
 
-}
+    h1 {
+        display: block;
+        border-bottom-style: solid;
+        border-color: gainsboro;
+        border-width: thin;
+        font-size: 90%;
+        font-style: normal;
+        margin: 2em 10em;
+    }
 
-.load button {
-    font-size: 1em;
-    background-color: #f66a9b;
-    color: black;
-    width: 17em;
-    height: 3em;
-    border-style: none;
-    transition-duration: 0.3s;
+    .load {
+        text-align: center;
+        margin: 1em 0em 3em 0em;
 
-}
+    }
 
-.load button:hover,
-.load button:focus {
-    color: white;
-    width: 17em;
-    height: 3em;
-    opacity: 0.7;
+    .load button {
+        font-size: 1em;
+        background-color: #f66a9b;
+        color: black;
+        width: 17em;
+        height: 3em;
+        border-style: none;
+        transition-duration: 0.3s;
+
+    }
+
+    .load button:hover,
+    .load button:focus {
+        color: white;
+        width: 17em;
+        height: 3em;
+        opacity: 0.7;
 
 
+    }
 }
