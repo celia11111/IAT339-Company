@@ -1,0 +1,23 @@
+.payment-container{
+ display: flex;
+ display: -webkit-flex;
+ display: -ms-flex;
+
+ flex-wrap: wrap;
+ -webkit-flex-wrap: wrap;
+ -ms-flex-wrap: wrap;
+
+ align-items: flex-start;
+ -webkit-align-items: flex-start;
+ -ms-align-items: flex-start;
+
+ margin-left: -1rem;
+}
+
+.payment-container > *{
+ margin: 1rem 1rem 2rem 1rem;
+
+ flex: 1 0 12rem;
+ -webkit-flex: 1 0 12rem;
+ -ms-webkit-flex:  1 0 12rem;
+}
