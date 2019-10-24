@@ -1,43 +1,67 @@
-@media screen and (min-width: 200px) and (max-width: 1120px) {
+@media screen and (max-width: 1120px) {
+
+    body {
+        margin: 0em;
+    }
+
     .topright {
-       overflow: hidden;
+        background-color: beige;
+        margin: 0em;
+        padding: 0;
+        height: 0em;
+
     }
 
     .topright img {
-    display: none;
-    
-    }
-    .logo {
-        display: block;
-        margin: 0 auto;
-        max-width: 8em;
-        width: 25%;
-        margin-top: 0em;
+        display: none;
 
     }
 
-    header {
-        background-color: #FCEFF3;
-        height: 5em;
-        position: fixed;
-        width: 100%;
 
-
-    }
-
-    .navbar {
-        
-        overflow: hidden;
+    .ca {
         display: none;
     }
 
-    .mobile {}
+
+    header {
+        height: auto;
+        padding: 0em;
+        margin: 0em;
+        position: fixed;
+        width: 100%;
+ background-color: #FCEFF3;
+
+    }
+
+
+    .logo {
+        display: block;
+        position: relative;
+     
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .logo img {
+        display: block;
+      
+        position: relative;
+        width: 7em;
+        height: 4em;
+        margin: auto;
+    }
+
+    .navbar {
+        display: none;
+    }
 
 
 
     .topnav {
         background-color: #F8BACA;
-        position: fixed;
+        position: absolute;
+        top: 0;
         display: inline-block;
         width: 100%;
 
@@ -45,17 +69,21 @@
 
     .topnav p {
         margin-top: 2.5em;
+        color: transparent;
     }
 
     .topnav #myLinks {
         display: none;
     }
-    
-        .topnav #mysubs {
+
+    .topnav #mysubs {
         display: none;
     }
 
     .topnav a {
+        position: static;
+        width: auto;
+        height: auto;
         border-bottom: 0.2em;
         border-bottom-style: solid;
         border-bottom-color: transparent;
@@ -74,7 +102,7 @@
         display: block;
         position: fixed;
         left: 0.8em;
-        top: 0.5em;
+
     }
 
     .topnav a:hover {
@@ -87,64 +115,105 @@
 
 
     .mobilelogin {
+        width: auto;
+        margin: 1em;
+        height: auto;
         text-align: center;
+       color: bisque;
+    }
+ .mobilelogin a{
+        width: 8em;
+        margin: 1em 2em;
+        height: 1em;
+        text-align: center;
+       color: bisque;
     }
 
     #log {
         display: inline-block;
-        background-color: white;
-        width: 30%;
+       background-color: aliceblue;
+       
     }
 
 
 
 }
 
-@media screen and (min-width: 1120px) and (max-width: 1600px) {
+@media screen and (min-width: 1120px) {
+    body {
+        margin: 0;
+    }
+
     header {
         background-color: #FCEFF3;
-        height: 8em;
+        height: auto;
+        padding: 0em;
+        margin: 0em;
         position: fixed;
         width: 100%;
-        margin-top: -1em;
 
     }
+
 
     .logo {
         display: block;
-        width: 11em;
-        margin: -5.5em 45%;
-       
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .logo img {
+        display: block;
+        position: relative;
+        width: 9em;
+        height: 5em;
+        margin: auto;
     }
 
     .topright {
-        padding: 2em 0em;
-        text-align: right;
-        display: block;
-        width: 98%;
+        z-index: 222;
+       position: absolute;
+      right: 1em;
+        top:1em;
+        padding: 0;
+        height: auto;
+        width: auto;
+        
+    }
+
+    .topnav {
+        display: none;
 
     }
 
-    .topright a {
-        font-size: 0.8em;
-        text-decoration: none;
+
+    .topright img {
+        width: 1.2em;
+        margin: 0.8em;;
+     
+        
     }
 
 
     .navbar {
-        overflow: visible;
-        margin-top: -5em;
+        position: relative;
         font-size: 0.8em;
-        overflow: hidden;
+        margin: auto;
         text-align: center;
-        background-color: #FCEFF3;
+   
         text-decoration: none;
     }
 
     .ca {
+        position: relative;
+        background-color: #FCEFF3;
         position: fixed;
-        margin-top: 3em;
         width: 100%;
+        height: auto;
+        margin-top: 5em;
+
+
     }
 
     .navbar a {
@@ -250,7 +319,6 @@
 
 
 
-    /* Clear floats after the columns */
     .row:after {
         content: "";
         display: table;
@@ -263,20 +331,8 @@
 
     }
 
-    .sale1 {
-        margin: 5em;
-        width: 80%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
-    .showimg {
-        width: 20%;
-        height: auto;
-        margin: 1em 1em 1em 1em;
 
-    }
 
 
 }

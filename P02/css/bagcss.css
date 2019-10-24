@@ -1,16 +1,41 @@
+body {
+    /*    font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
+    font-weight: 400;
+    margin: 0em;
+    background-color: #fef9fc;
+
+}
 
 @media screen and (min-width: 1120px) {
+
+    /*
+    
     h1 {
+        position: static;
         display: block;
         border-bottom-style: solid;
         border-color: gainsboro;
         border-width: thin;
         font-size: 90%;
         font-style: normal;
-        margin: 2em 10em;
+       margin: auto;
+    }
+*/
+
+    .result {
+        position: relative;
+        height: 7em;
+        z-index: -1;
+
+    }
+
+    h1 {
+        margin: auto;
+
     }
 
     .imagebox {
+        position: static;
         width: auto;
         height: auto;
         display: flex;
@@ -18,7 +43,7 @@
         align-content: flex-start;
         justify-content: space-evenly;
         margin: 0em 10em;
-
+        
 
     }
 
@@ -27,11 +52,12 @@
         display: flex;
         flex-direction: column;
         background-color: transparent;
-        margin: auto;
+
 
     }
 
     .box img {
+
         width: 15em;
         margin: 0.5em;
         opacity: 1;
@@ -42,8 +68,7 @@
     .box img:focus {
         width: 15em;
         margin: 0.5em;
-
-        opacity: 0.7;
+/*        opacity: 0.7;*/
 
     }
 
@@ -52,21 +77,25 @@
         color: black;
         text-align: center;
         margin-bottom: 2em;
-        margin-top: 0em;
+
     }
 
     .box h2 {
+        width: 15em;
         font-size: 90%;
         text-align: center;
         color: black;
         margin-top: 0.5em;
         margin-bottom: 0.4em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .box a {
         text-decoration: none;
     }
 
+    /*
     h1 {
         display: block;
         border-bottom-style: solid;
@@ -76,6 +105,7 @@
         font-style: normal;
         margin: 2em 10em;
     }
+*/
 
     .load {
         text-align: center;
@@ -105,17 +135,11 @@
     }
 }
 
-@media screen and (min-width: 200px) and (max-width: 1210px) {
-        h1 {
-        display: block;
-        border-bottom-style: solid;
-        border-color: gainsboro;
-        border-width: thin;
-        font-size: 90%;
-        font-style: normal;
-        margin: 2em 15%;
+@media screen and (max-width: 1210px) {
+    h1 {
+      display: none;
     }
-    
+
     .imagebox {
         width: auto;
         height: auto;
@@ -124,6 +148,7 @@
         align-content: flex-start;
         justify-content: space-evenly;
         margin: 0em 10em;
+/*        z-index: 0;*/
 
 
     }
@@ -133,14 +158,13 @@
         display: flex;
         flex-direction: column;
         background-color: transparent;
-        margin: auto;
+
 
     }
 
-    .box img {
+    .box img { 
         margin: 0.5em;
         width: 18em;
-
         opacity: 1;
         transition-duration: 0s;
     }
@@ -148,9 +172,10 @@
     .box img:hover,
     .box img:focus {
         margin: 0.5em;
+        width: 18em;
 
-        opacity: 0.7;
-
+/*        opacity: 0.7;*/
+        transition-duration: 0s;
     }
 
     .box p {
@@ -158,15 +183,17 @@
         color: black;
         text-align: center;
         margin-bottom: 2em;
-        margin-top: 0em;
+
     }
 
     .box h2 {
+        width: 18em;
         font-size: 90%;
         text-align: center;
         color: black;
         margin-top: 0.5em;
         margin-bottom: 0.4em;
+        margin: auto;
     }
 
     .box a {
