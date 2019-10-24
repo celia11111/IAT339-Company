@@ -9,14 +9,16 @@ body {
 
 @media screen and (min-width: 200px) and (max-width: 1120px) {
    
-    
     .sale {
-        margin-top: 5em;
+        position: static;
+        width: auto;
+        margin-top: 4em;
         width: 100%;
     }
 
    
     .sale1 {
+        position: static;
         margin: 1em;
         width: 80%;
         display: block;
@@ -28,8 +30,14 @@ body {
 
 @media screen and (min-width: 1120px) and (max-width: 1600px) {
    
-
+    .sale {
+        position:static;
+        width: auto;
+        margin-top: 7.6em;
+        width: 100%;
+    }
     .sale1 {
+   
         margin: 5em;
         width: 80%;
         display: block;

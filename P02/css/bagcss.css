@@ -1,16 +1,35 @@
+body {
+    /*    font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
+    font-weight: 400;
+    margin: 0em;
+    background-color: #fef9fc;
+
+}
 
 @media screen and (min-width: 1120px) {
+
+    /*
     h1 {
+        position: relative;
+     
         display: block;
         border-bottom-style: solid;
         border-color: gainsboro;
         border-width: thin;
         font-size: 90%;
         font-style: normal;
-        margin: 2em 10em;
+        margin: 2em 10em 2em 10em;
+    }
+*/
+    h1 {
+        margin: 0em;
+        position: absolute;
+
     }
 
     .imagebox {
+      position: static;
+ 
         width: auto;
         height: auto;
         display: flex;
@@ -27,7 +46,7 @@
         display: flex;
         flex-direction: column;
         background-color: transparent;
-        margin: auto;
+      
 
     }
 
@@ -42,7 +61,6 @@
     .box img:focus {
         width: 15em;
         margin: 0.5em;
-
         opacity: 0.7;
 
     }
@@ -52,21 +70,25 @@
         color: black;
         text-align: center;
         margin-bottom: 2em;
-        margin-top: 0em;
+      
     }
 
     .box h2 {
+         width: 15em;
         font-size: 90%;
         text-align: center;
         color: black;
         margin-top: 0.5em;
         margin-bottom: 0.4em;
+        margin-left: auto;
+         margin-right: auto;
     }
 
     .box a {
         text-decoration: none;
     }
 
+    /*
     h1 {
         display: block;
         border-bottom-style: solid;
@@ -76,6 +98,7 @@
         font-style: normal;
         margin: 2em 10em;
     }
+*/
 
     .load {
         text-align: center;
@@ -105,8 +128,8 @@
     }
 }
 
-@media screen and (min-width: 200px) and (max-width: 1210px) {
-        h1 {
+@media screen and (max-width: 1210px) {
+    h1 {
         display: block;
         border-bottom-style: solid;
         border-color: gainsboro;
@@ -115,7 +138,7 @@
         font-style: normal;
         margin: 2em 15%;
     }
-    
+
     .imagebox {
         width: auto;
         height: auto;
@@ -133,11 +156,12 @@
         display: flex;
         flex-direction: column;
         background-color: transparent;
-        margin: auto;
+        
 
     }
 
     .box img {
+       position: relative;
         margin: 0.5em;
         width: 18em;
 
@@ -148,9 +172,10 @@
     .box img:hover,
     .box img:focus {
         margin: 0.5em;
-
+        width: 18em;
+        
         opacity: 0.7;
-
+        transition-duration: 0s;
     }
 
     .box p {
@@ -158,15 +183,17 @@
         color: black;
         text-align: center;
         margin-bottom: 2em;
-        margin-top: 0em;
+       
     }
 
     .box h2 {
+          width: 18em;
         font-size: 90%;
         text-align: center;
         color: black;
         margin-top: 0.5em;
         margin-bottom: 0.4em;
+        margin: auto;
     }
 
     .box a {
