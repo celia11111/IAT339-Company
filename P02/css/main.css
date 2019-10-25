@@ -148,7 +148,7 @@ code {
   background-color:white;
   text-decoration: none;
   transition-property: background-color;
-  transition-duration: 0.5s;
+  /* transition-duration: 0.5s; */
   text-align:center;
 }
 
