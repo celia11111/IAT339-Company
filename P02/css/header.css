@@ -60,7 +60,7 @@
 
     .topnav {
         background-color: #F8BACA;
-        position: absolute;
+        position: fixed;
         top: 0;
         display: inline-block;
         width: 100%;
