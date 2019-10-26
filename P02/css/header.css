@@ -137,7 +137,7 @@
 
     .change .ham1 {
         -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-        transform: rotate(-45deg) translate(-4px, 3px);
+        transform: rotate(-45deg) translate(-0.2em, 0.15em);
     }
 
 
@@ -147,8 +147,8 @@
 
 
     .change .ham3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px);
-        transform: rotate(45deg) translate(-8px, -8px);
+        -webkit-transform: rotate(45deg) translate(-1em, -1em);
+        transform: rotate(45deg) translate(-0.55em, -0.5em);
     }
 
     .topnav a:hover {
@@ -248,6 +248,7 @@
         margin: 0.8em;
         opacity: 0.7;
 
+
     }
 
 
@@ -257,6 +258,7 @@
         margin: auto;
         text-align: center;
         text-decoration: none;
+        
     }
 
     .ca {
@@ -288,6 +290,8 @@
         display: inline-block;
         margin: 0em 1.2em 0em 1.2em;
         overflow: hidden;
+         
+        
     }
 
     .dropdown .dropbtn {
@@ -318,6 +322,7 @@
 
     .dropdown-content {
         display: none;
+
         position: absolute;
         width: 100%;
         left: 0;
