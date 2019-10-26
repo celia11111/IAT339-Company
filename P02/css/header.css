@@ -5,7 +5,6 @@
     }
 
     .topright {
-        background-color: beige;
         margin: 0em;
         padding: 0;
         height: 0em;
@@ -14,7 +13,6 @@
 
     .topright img {
         display: none;
-
     }
 
 
@@ -29,7 +27,7 @@
         margin: 0em;
         position: fixed;
         width: 100%;
- background-color: #FCEFF3;
+        background-color: #FCEFF3;
 
     }
 
@@ -37,15 +35,15 @@
     .logo {
         display: block;
         position: relative;
-     
-        width: 100%;
-        height: auto;
+        width: 7em;
+        height: 4em;
         margin: auto;
     }
 
+
+
     .logo img {
         display: block;
-      
         position: relative;
         width: 7em;
         height: 4em;
@@ -68,7 +66,7 @@
     }
 
     .topnav p {
-        margin-top: 2.5em;
+        margin-top: 4.5em;
         color: transparent;
     }
 
@@ -88,21 +86,69 @@
         border-bottom-style: solid;
         border-bottom-color: transparent;
         border-bottom-width: thick;
-        color: white;
-        padding: 0.8em 1em;
+        color: black;
+        padding-bottom: 0.5em;
+        margin: 0.5em 0.8em 0.5em 2.5em;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 1em;
         display: table;
-        margin-left: 1em;
+
     }
 
     .topnav a.icon {
-
-        background: black;
+        margin-top: 1em;
         display: block;
         position: fixed;
-        left: 0.8em;
+        width: auto;
+        height: auto;
+        padding: 0;
+        margin-bottom: 1em;
 
+    }
+
+    .topnav a.icon:hover {
+        margin-top: 1em;
+        display: block;
+        position: fixed;
+        width: auto;
+        height: auto;
+        padding: 0;
+        margin-bottom: 1em;
+        border-color: transparent;
+
+    }
+
+    .ham {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+
+    .ham1,
+    .ham2,
+    .ham3 {
+        width: 1.5em;
+        height: 0.2em;
+        background-color: black;
+        margin: 0.3em 0;
+        transition: 0.4s;
+    }
+
+
+    .change .ham1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-4px, 3px);
+    }
+
+
+    .change .ham2 {
+        opacity: 0;
+    }
+
+
+    .change .ham3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
     }
 
     .topnav a:hover {
@@ -110,6 +156,7 @@
         border-bottom-style: solid;
         border-bottom-color: #f66a9b;
         border-bottom-width: thick;
+        transition: 0.2s;
     }
 
 
@@ -119,21 +166,23 @@
         margin: 1em;
         height: auto;
         text-align: center;
-       color: bisque;
+        color: black;
     }
- .mobilelogin a{
+
+    .mobilelogin a {
         width: 8em;
         margin: 1em 2em;
         height: 1em;
         text-align: center;
-       color: bisque;
+
     }
 
     #log {
         display: inline-block;
-       background-color: aliceblue;
-       
+        background-color: aliceblue;
+
     }
+
 
 
 
@@ -158,8 +207,8 @@
     .logo {
         display: block;
         position: relative;
-        width: 100%;
-        height: auto;
+        width: 9em;
+        height: 5em;
         margin: auto;
     }
 
@@ -173,13 +222,13 @@
 
     .topright {
         z-index: 222;
-       position: absolute;
-      right: 1em;
-        top:1em;
+        position: absolute;
+        right: 1em;
+        top: 1em;
         padding: 0;
         height: auto;
         width: auto;
-        
+
     }
 
     .topnav {
@@ -190,9 +239,15 @@
 
     .topright img {
         width: 1.2em;
-        margin: 0.8em;;
-     
-        
+        margin: 0.8em;
+
+    }
+
+    .topright img:hover {
+        width: 1.2em;
+        margin: 0.8em;
+        opacity: 0.7;
+
     }
 
 
@@ -201,7 +256,6 @@
         font-size: 0.8em;
         margin: auto;
         text-align: center;
-   
         text-decoration: none;
     }
 
@@ -254,6 +308,7 @@
 
     .dropdown:hover .dropbtn,
     .dropdown:focus-within .dropbtn {
+        transition: 0.2s;
         border-bottom: 0.2em;
         border-bottom-style: solid;
         border-bottom-color: #f66a9b;
@@ -300,6 +355,7 @@
 
     .column p:hover {
         border-bottom: 0.2em;
+        transition: 0.2s;
         border-bottom-style: solid;
         border-bottom-color: #f66a9b;
         border-bottom-width: medium;

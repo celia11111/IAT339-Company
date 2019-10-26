@@ -122,13 +122,13 @@ footer {
         background-color: #F8BACA;
         display: flex;
         flex-flow: wrap;
-        justify-content: space-around;
+        justify-content:space-between;
 
     }
 
     .showimg {
         display: block;
-        width: 30%;
+        width: 35%;
         height: auto;
         margin: 1em 1em 0em 1em;
     }
