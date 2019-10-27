@@ -214,19 +214,19 @@ body {
 
     }
 
-    .checkout button {
+    .checkout a {
         font-size: 1em;
         background-color: #f66a9b;
         color: black;
-        width: 17em;
+        width: 15em;
         height: 3em;
         border-style: none;
         transition-duration: 0.3s;
 
     }
 
-    .checkout button:hover,
-    .checkout button:focus {
+    .checkout a:hover,
+    .checkout a:focus {
         color: white;
         width: 17em;
         height: 3em;
@@ -234,5 +234,7 @@ body {
 
 
     }
+    
+    
 
 }

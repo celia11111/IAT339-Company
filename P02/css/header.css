@@ -291,7 +291,7 @@ footer p {
 
     }
 
-    .topright img:hover {
+    .topright img:hover, .topright img:focus {
         width: 1.2em;
         margin: 0.8em;
         opacity: 0.7;
@@ -338,6 +338,7 @@ footer p {
         display: inline-block;
         margin: 0em 1.2em 0em 1.2em;
         overflow: hidden;
+        z-index: 999;
 
 
     }
@@ -454,7 +455,7 @@ footer p {
     border-bottom-color: transparent;
 }
     
-.footbt:hover {
+.footbt:hover, .footbt:focus {
     height: auto;
     font-size: 1.2em;
     border: none;
