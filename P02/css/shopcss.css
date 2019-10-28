@@ -10,7 +10,7 @@ body {
 @media screen and (min-width: 1120px) {
     .result {
         position: relative;
-        height: 9em;
+        height: 8em;
         z-index: -1;
 
     }
@@ -25,6 +25,7 @@ body {
         font-size: 90%;
         font-style: normal;
         margin-bottom: 1em;
+        margin-top: 1em;
 
 
     }
@@ -62,23 +63,7 @@ body {
         border-width: thin;
     }
 
-    /*
 
-    .text {
-        display: inline-block;
-        width: 75%;
-        text-align: right;
-
-    }
-*/
-
-    /*
-    .text h3 {
-        display: inline;
-        font-size: 1em;
-        margin-right: 5em;
-    }
-*/
 
     .listc h3 {
         font-size: 1em;
@@ -98,17 +83,6 @@ body {
 
     }
 
-    /*
-
-    .line {
-        border-bottom-style: solid;
-        border-bottom-width: thin;
-        border-color: gainsboro;
-        margin: 0em 10em;
-
-    }
-
-*/
 
 
     .listc {
@@ -126,8 +100,8 @@ body {
     }
 
     .checkout {
-        text-align: right;
-        margin: 1em 5em 5em 0em;
+        text-align: center;
+        margin: 1em 0em 5em 0em;
 
     }
 
@@ -162,8 +136,9 @@ body {
 
     }
 }
+
 @media screen and (max-width: 880px) {
- .result {
+    .result {
         position: relative;
         height: 4em;
         z-index: -1;
@@ -240,7 +215,7 @@ body {
         height: auto;
         width: 100%;
         display: inline-block;
-        flex-grow:1;
+        flex-grow: 1;
         margin: auto;
         text-align: center;
     }
@@ -254,11 +229,11 @@ body {
     .checkout {
         text-align: center;
         margin: 2em 0em 3em 0em;
-
+        
     }
 
 
-   .checkout a {
+    .checkout a {
         text-decoration: none;
         color: black;
         width: 14em;
@@ -266,8 +241,10 @@ body {
         padding: 1em 0em;
         display: inline-block;
         margin-left: -0.5em;
+       
     }
-.checkout button {
+
+    .checkout button {
         font-size: 1em;
         background-color: #f66a9b;
         width: 14em;
@@ -278,7 +255,7 @@ body {
 
     }
 
-    
+
 
     .checkout a:hover,
     .checkout a:focus {
@@ -286,7 +263,7 @@ body {
         width: 14em;
         height: 3em;
         opacity: 0.7;
-        
+
 
 
     }
@@ -295,6 +272,7 @@ body {
 
 
 }
+
 @media screen and (min-width: 880px) and (max-width: 1120px) {
     .result {
         position: relative;
@@ -354,21 +332,6 @@ body {
     }
 
 
-    /*
-    .text {
-        display: inline-block;
-        width: 50%;
-        text-align: right;
-
-    }
-
-    .text h3 {
-        display: inline;
-        font-size: 1em;
-        margin-right: 5em;
-    }
-*/
-
     .listc h3 {
         font-size: 1em;
         text-align: center;
@@ -380,18 +343,6 @@ body {
         height: auto;
 
     }
-
-
-    /*
-    .line {
-
-        border-bottom-style: solid;
-        border-bottom-width: thin;
-        border-color: gainsboro;
-        margin: 0em 10em;
-
-    }
-*/
 
 
 
@@ -417,7 +368,7 @@ body {
     }
 
 
-   .checkout a {
+    .checkout a {
         text-decoration: none;
         color: black;
         width: 14em;
@@ -426,7 +377,8 @@ body {
         display: inline-block;
         margin-left: -0.5em;
     }
-.checkout button {
+
+    .checkout button {
         font-size: 1em;
         background-color: #f66a9b;
         width: 14em;
@@ -437,7 +389,7 @@ body {
 
     }
 
-    
+
 
     .checkout a:hover,
     .checkout a:focus {
@@ -445,7 +397,7 @@ body {
         width: 14em;
         height: 3em;
         opacity: 0.7;
-        
+
 
 
     }
