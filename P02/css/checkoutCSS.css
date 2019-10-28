@@ -6,109 +6,119 @@ body {
 
 }
 
-.pay{
-width: auto;
-    height: auto;
-position: relative;
-    display: flex;
-    flex-flow: nowrap;
-    align-items: center;
-}
-
- .result {
+@media screen and (min-width: 1120px) {
+     .result {
         position: relative;
-        height: 9em;
+        height: 8em;
         z-index: -1;
-      
+
+    }
+    
+  
+    .pay {
+     position: static;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-flow: nowrap;
+        align-items: center;
     }
 
-.sp {
-    height: auto;
-    width: auto;
-margin: auto;
-    justify-content:flex-start;
-    display: flex;
+   
 
-    flex-flow: row wrap;
-}
+    .sp {
+        height: auto;
+        width: 100%;
+        margin-left: 8%;
+         margin-right: 8%;
+        justify-content: center;
+        display: flex;
+        flex-flow: row wrap;
+    }
 
-.address {
-    position: relative;
-    width: 45%;
-    height: auto;
-    display: inline-block;
-    margin: 0;
+    .address {
+        
+        width: 40%;
+        height: auto;
+        display: inline-block;
+        margin: 0;
 
 
-}
+    }
 
-.name {
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: inline-block;
+    .name {
+       margin: auto;
+        width: 100%;
+        height: auto;
+        display: inline-block;
 
-}
-.name input{
-margin: 0.4em 0em;
-    width: 16em;
-    background-color:
-        #ededed;
-    border-style: solid;
-    border-color: black;
-    border-width: 0.01em;
-    opacity: 0.4;
-    height: 1.8em;
-}
+    }
 
-.address2 {
-    position: relative;
-    width: 45%;
-    height: auto;
-    width: 80%;
-    margin: 0;
-}
+    .name input {
+        margin: 0.4em 0em;
+        width: 16em;
+        background-color: white;
+        border-style: solid;
+        border-color: black;
+        border-width: 0.01em;
+        height: 1.8em;
+    }
 
-.address2 p {
-    margin: 0em;
+    .address2 {
+        width: 40%;
+        height: auto;
+        width: 80%;
+        margin: 0;
+    }
 
-}
+    .address2 p {
+        margin-top: 0.3em;
 
-.address2 input {
-    height: 1.8em;
-    width: 34.5em;
-}
+    }
 
-.method {
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: row wrap;
-    margin: 0;
-}
+    .address2 input {
+         border-style: solid;
+        border-color: black;
+        border-width: 0.01em;
+        height: 1.8em;
+        width: 34.5em;
+    }
 
-.card input {
-    position: relative;
-    height: 1.8em;
-    width: 50em;
-    margin-right: 2em;
+    .method {
+       
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: row wrap;
+        margin: 0;
+    }
 
-}
+    .card input {
+        height: 1.8em;
+        width: 50em;
+        margin-right: 2em;
+         border-style: solid;
+        border-color: black;
+        border-width: 0.01em;
 
-.num input {
-    position: relative;
-    width: 15.5em;
-    height: 1.8em;
-    margin-right: 1em;
+    }
 
-}
+    .num input {
+         border-style: solid;
+        border-color: black;
+        border-width: 0.01em;
+        width: 15.5em;
+        height: 1.8em;
+        margin-right: 1em;
 
-.cardType {
-    margin: 0.5em -1em;
-}
+    }
 
-.cardType input {
-    margin-left: 1em;
+    .cardType {
+        margin: 0.5em -1em;
+    }
+
+    .cardType input {
+        margin-left: 1em;
+    }
 }
