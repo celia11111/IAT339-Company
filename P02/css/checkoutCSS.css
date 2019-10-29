@@ -6,6 +6,22 @@ body {
 
 }
 
+.addtobag {
+  display: inline-block;
+  border:none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  background-color:  rgb(230,101,140);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  text-align:center;
+}
+
+
 @media screen and (min-width: 1120px) {
      .result {
         position: relative;
@@ -13,8 +29,8 @@ body {
         z-index: -1;
 
     }
-    
-  
+
+
     .pay {
      position: static;
         width: auto;
@@ -22,9 +38,10 @@ body {
         display: flex;
         flex-flow: nowrap;
         align-items: center;
+        /* padding-left: 2em; */
     }
 
-   
+
 
     .sp {
         height: auto;
@@ -37,7 +54,7 @@ body {
     }
 
     .address {
-        
+
         width: 40%;
         height: auto;
         display: inline-block;
@@ -85,7 +102,6 @@ body {
     }
 
     .method {
-       
         width: 100%;
         height: auto;
         display: flex;
@@ -96,9 +112,9 @@ body {
 
     .card input {
         height: 1.8em;
-        width: 50em;
+        width: 34.5em;
         margin-right: 2em;
-         border-style: solid;
+        border-style: solid;
         border-color: black;
         border-width: 0.01em;
 
@@ -115,7 +131,8 @@ body {
     }
 
     .cardType {
-        margin: 0.5em -1em;
+        margin: 0.5em;
+
     }
 
     .cardType input {

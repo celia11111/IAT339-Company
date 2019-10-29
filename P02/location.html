@@ -3,131 +3,226 @@
 
 <head>
     <meta charset="utf-8">
-    <title>About</title>
+    <title>Location</title>
     <link rel="stylesheet" type="text/css" href="css/locationCSS.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <script src="css/function.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
 
 </head>
 
 <body>
 
-  <header>
-      <div class="topright">
-          <a href="#"><img class="right" alt="logo" src="img/login.png"></a>
-          <a href="shoppingbag.html"><img class="right" alt="logo" src="img/icon.png"></a>
-      </div>
-      <a href="home.html">
-          <img class="logo" alt="logo" src="img/logo.png">
-      </a>
-
-  </header>
-
-    <div class="navbar">
-
-        <div class="dropdown">
-            <button class="dropbtn"><a href="handbag.html">HANDBAG</a>
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-
-                <div class="row">
-
-                    <div class="column">
-                        <!-- <h3>Handbags</h3> -->
-                        <a href="shoulderBag.html">Shoulder Bags</a>
-                        <a href="tote.html">Totes</a>
-                        <a href="beltBag.html">Belt Bags</a>
-                    </div>
-
-
-                    <div class="column">
-                     <img class="sale" alt="sale image" src="img/sale3.png">
-                   </div>
-
-                </div>
-            </div>
+    <header>
+        <a class="logo" href="home.html">
+            <img class="logo1" alt="logo" src="img/logo.png">
+        </a>
+        <div class="topright">
+            <img class="right" alt="logo" src="img/login.png">
+            <a href="shoppingbag.html"><img class="right" alt="logo" src="img/icon.png"></a>
         </div>
 
 
 
-        <div class="dropdown">
-            <button class="dropbtn"><a href="accessories.html">ACCESSORIES</a>
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
+    </header>
 
-                <div class="row">
-
-                    <div class="column">
-                        <!-- <h3>Accessories</h3> -->
-                        <a href="jewlry.html">Jewelry</a>
-                        <a href="smallGoods.html">Small Leather Goods</a>
-                        <a href="sunglasses.html">Sunglasses</a>
-                    </div>
-
-                    <div class="column">
-                       <img class="sale" alt="sale image" src="img/sale3.png">
-                    </div>
-
+    <div class="mobile">
+        <div class="topnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <div class="ham" onclick="my(this)">
+                    <div class="ham1"></div>
+                    <div class="ham2"></div>
+                    <div class="ham3"></div>
                 </div>
-            </div>
-        </div>
-
-
-
-
-
-        <div class="dropdown">
-            <button class="dropbtn"><a href="events.html">EVENTS</a>
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-
-                <div class="row">
-
-                    <div class="column">
-                        <!-- <h3>Events</h3> -->
-                        <a href="sale.html">Annual Sales</a>
-                        <a href="discount.html">Discount Code</a>
-                        <a href="show.html">Fashion Shows</a>
-                    </div>
-
-                    <div class="column">
-                       <img class="sale" alt="sale image" src="img/sale3.png">
-                    </div>
-
+            </a>
+            <div id="myLinks">
+                <p></p>
+                <a href="javascript:void(0);" onclick="mysubFunction()">HANDBAG</a>
+                <div id="mysubs">
+                    <a href="handbag.html">HANDBAG</a>
+               </div>
+                <a href="handbag.html">ACCESSORIES</a>
+                <a href="events.html">EVENTS</a>
+                <a href="about.html">ABOUT</a>
+                <div class="mobilelogin">
+                    <a id="log">LOGIN</a>
+                    <a id="log" href="shoppingbag.html">SHOPPING BAG</a>
                 </div>
+                <p></p>
+
             </div>
+
         </div>
-
-
-
-        <div class="dropdown">
-            <button class="dropbtn"><a href="about.html">ABOUT</a>
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-
-                <div class="row">
-
-                    <div class="column">
-                        <!-- <h3>About Us</h3> -->
-                        <a href="location.html">Location</a>
-                        <a href="contacts.html">Contacts</a>
-                        <a href="group.html">Kate Spade Group</a>
-                    </div>
-
-                    <div class="column">
-                         <img class="sale" alt="sale image" src="img/sale3.png">
-                       </div>
-
-                </div>
-            </div>
-        </div>
-
 
     </div>
+
+
+
+    <div class="ca">
+
+        <div class="navbar">
+
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="handbag.html">HANDBAG</a>
+
+                </button>
+                <div class="dropdown-content">
+
+                    <div class="row">
+
+                        <div class="column">
+                            <p href="shoulderBag.html">View All</p>
+                            <p href="shoulderBag.html">Shoulder Bags</p>
+                            <p>Totes</p>
+                            <p>Belt Bags</p>
+                            <p>Mini Bags</p>
+
+                        </div>
+                        <div class="column">
+                            <p>Satchels</p>
+                            <p>Clutches</p>
+                            <p>Totes</p>
+                            <p>Diaper Bags</p>
+
+
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="https://ilikepromos.com/wp-content/uploads/2019/05/Kate-Spade-Sales-on-Sale.jpg">
+
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="https://katespade.insnw.net/KateSpade/PXRU7662_001?$large$">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="handbag.html">ACCESSORIES</a>
+
+                </button>
+                <div class="dropdown-content">
+
+                    <div class="row">
+
+                        <div class="column">
+                            <p href="jewlry.html">Jewelry</p>
+                            <p>Rings</p>
+                            <p>Leather Goods</p>
+                            <p>Sunglasses</p>
+                            <p>Watches</p>
+                        </div>
+
+                        <div class="column">
+                            <p>Tech</p>
+                            <p>Keyrings</p>
+                            <p>Fragrance</p>
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="https://cdn.katespade.tech/na/assets/img/topnav/OCT2019_Flyout_Jewelry-01.jpg">
+
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="https://katespade.insnw.net/KateSpade/PXRU7662_001?$large$">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="events.html">EVENTS</a>
+
+                </button>
+                <div class="dropdown-content">
+
+                    <div class="row">
+
+                        <div class="column">
+
+                            <p href="sale.html">Annual Sales</p>
+                            <p href="discount.html">Discount Code</p>
+                            <p>Fashion Shows</p>
+                            <p>Collection</p>
+                            <p>Personalization services</p>
+                        </div>
+
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="https://ilikepromos.com/wp-content/uploads/2019/05/Kate-Spade-Sales-on-Sale.jpg">
+
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="img/salenave.png">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="about.html">ABOUT</a>
+                </button>
+                <div class="dropdown-content">
+
+                    <div class="row">
+
+                        <div class="column">
+
+                            <a href="location.html"><p>Location</p></a>
+                            <a href="location.html"><p>Contacts</p></a>
+                            <p>Kate Spade Group</p>
+                            <p>Student Program</p>
+                            <p>Investors</p>
+
+                        </div>
+
+                        <div class="column">
+
+                            <p>On purpose</p>
+                            <p>Tapestry</p>
+                            <p>Responsibility</p>
+
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="img/about.png">
+
+                        </div>
+                        <div class="column">
+
+                            <img class="navimg" alt="product" src="img/about2.png">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
 
 
 
