@@ -6,16 +6,19 @@ body {
 
 }
 
+.cite{
+  padding:2em;
+}
 
 @media screen and (min-width: 200px) and (max-width: 1120px) {
-   
+
     .sale {
         position: static;
         margin-top: 4em;
         width: 100%;
     }
 
-   
+
     .sale1 {
         position: static;
         margin: 1em;
@@ -28,7 +31,7 @@ body {
 }
 
 @media screen and (min-width: 1120px) and (max-width: 1600px) {
-   
+
     .sale {
         position:static;
         width: auto;
@@ -36,7 +39,7 @@ body {
         width: 100%;
     }
     .sale1 {
-   
+
         margin: 5em;
         width: 80%;
         display: block;
@@ -217,7 +220,3 @@ footer {
     background-color: #F8BACA;
     margin-bottom: 5em;
 }
-
-
-
-

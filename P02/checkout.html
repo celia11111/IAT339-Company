@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Events</title>
+    <title>Checkout</title>
     <link rel="stylesheet" type="text/css" href="css/checkoutCSS.css" />
     <link rel="stylesheet" type="text/css" href="css/header.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -309,6 +309,10 @@
 
         </div>
 
+
+
+
+<!-- card info -->
         <div class="pay">
 
             <div class="sp">
@@ -317,7 +321,8 @@
                     <div class='card'>
                         <p>Card Numb</p>
                         <input type="text">
-                    </div>
+              </div>
+
                     <div class='num'>
                         <p>Exp Date</p>
                         <input type="text">
@@ -330,17 +335,45 @@
 
             </div>
         </div>
+
+
+        <div class="pay">
+
+            <div class="sp">
+
         <div class="cardType">
-            <input type="radio" name="subscribtion" value="half year"> Visa Card
+            <!-- <input type="radio" name="subscribtion" value="half year"> Visa Card
 
             <input type="radio" name="subscribtion" value="half year"> Mastercard
+            <input type="radio" name="subscribtion" value="half year"> PayPal -->
+
+            <div>
+              <input type="radio" id="mastercard" name="pay" value="mastercard" checked>
+              <label for="mastercard">mastercard</label>
+              </div>
+
+              <div>
+                <input type="radio" id="paypal" name="pay" value="paypal" checked>
+                <label for="mastercard">PayPal</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="wiretransfer" name="pay" value="wire transfer" checked>
+                  <label for="mastercard">wire transfer</label>
+                  </div>
 
         </div>
+      </div>
+      </div>
 
-        <div class="buttom">
-            <button type="button" value="Submit">Proceed to checkout</button>
+        <div class="cardType">
+            <!-- <button type="button" value="Submit">Proceed to checkout</button> -->
+            <a class="addtobag" href="shoppingbag.html">Process to Checkout</a>
         </div>
+
+
         <div class="code">
+        </div>
 
 
 
