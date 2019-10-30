@@ -75,15 +75,14 @@ body {
         margin-left: auto;
         margin-right: auto;
         text-align: left;
-  margin-bottom: 6em;
+  margin-bottom: 5em;
     }
 
     .center p {
         width: 70%;
         margin: auto;
-        /* text-align: left; */
-        font-size: 1.2em;
-        margin-top: 1.5em;
+        font-size: 1em;
+        margin-top: 1.3em;
     }
 
     .center img {

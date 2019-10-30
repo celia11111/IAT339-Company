@@ -1,3 +1,10 @@
+body {
+  margin: 0em;
+    background-color: #fef9fc;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
 @media screen and (max-width: 1120px) {
 
     body {
@@ -371,7 +378,6 @@ footer p {
 
     .dropdown-content {
         display: none;
-
         position: absolute;
         width: 100%;
         left: 0;
@@ -437,7 +443,7 @@ footer p {
 
     .column img {
         width: 100%;
-        height: auto;
+        height: 100%;
 
     }
 
