@@ -1,14 +1,9 @@
 body {
-    /*    font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
-    font-weight: 400;
     margin: 0em;
     background-color: #fef9fc;
 
 }
 
-.cite{
-  padding:2em;
-}
 
 @media screen and (min-width: 200px) and (max-width: 1120px) {
 
@@ -39,7 +34,6 @@ body {
         width: 100%;
     }
     .sale1 {
-
         margin: 5em;
         width: 80%;
         display: block;
