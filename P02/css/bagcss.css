@@ -8,20 +8,6 @@ body {
 
 @media screen and (min-width: 1120px) {
 
-    /*
-    
-    h1 {
-        position: static;
-        display: block;
-        border-bottom-style: solid;
-        border-color: gainsboro;
-        border-width: thin;
-        font-size: 90%;
-        font-style: normal;
-       margin: auto;
-    }
-*/
-
     .result {
         position: relative;
         height: 7em;
@@ -30,7 +16,17 @@ body {
     }
 
     h1 {
-        margin: auto;
+        position: static;
+        display: block;
+        border-bottom-style: solid;
+        border-color: gainsboro;
+        border-width: thin;
+        font-size: 90%;
+        font-style: normal;
+        margin-top: 3em;
+        margin-left: 12%;
+         margin-right: 12%;
+        
 
     }
 
@@ -43,7 +39,7 @@ body {
         align-content: flex-start;
         justify-content: space-evenly;
         margin: 0em 10em;
-        
+
 
     }
 
@@ -68,22 +64,22 @@ body {
     .box img:focus {
         width: 15em;
         margin: 0.5em;
-/*        opacity: 0.7;*/
+        /*        opacity: 0.7;*/
 
     }
 
     .box p {
         font-size: 90%;
         color: black;
-        text-align: center;
+        text-align: left;
         margin-bottom: 2em;
-
+        margin-left: 1.4em;
     }
 
     .box h2 {
         width: 15em;
         font-size: 90%;
-        text-align: center;
+        text-align: left;
         color: black;
         margin-top: 0.5em;
         margin-bottom: 0.4em;
@@ -95,17 +91,7 @@ body {
         text-decoration: none;
     }
 
-    /*
-    h1 {
-        display: block;
-        border-bottom-style: solid;
-        border-color: gainsboro;
-        border-width: thin;
-        font-size: 90%;
-        font-style: normal;
-        margin: 2em 10em;
-    }
-*/
+
 
     .load {
         text-align: center;
@@ -135,9 +121,27 @@ body {
     }
 }
 
-@media screen and (max-width: 1210px) {
-    h1 {
-      display: none;
+@media screen and (max-width: 1120px) {
+       .result {
+        position: relative;
+        height: 3em;
+        z-index: -1;
+
+    }
+
+  h1 {
+        position: static;
+        display: block;
+        border-bottom-style: solid;
+        border-color: gainsboro;
+        border-width: thin;
+        font-size: 90%;
+        font-style: normal;
+        margin-top: 3em;
+       margin-left: 16%;
+         margin-right: 16%;
+        
+
     }
 
     .imagebox {
@@ -148,7 +152,7 @@ body {
         align-content: flex-start;
         justify-content: space-evenly;
         margin: 0em 10em;
-/*        z-index: 0;*/
+      
 
 
     }
@@ -162,7 +166,7 @@ body {
 
     }
 
-    .box img { 
+    .box img {
         margin: 0.5em;
         width: 18em;
         opacity: 1;
@@ -174,22 +178,23 @@ body {
         margin: 0.5em;
         width: 18em;
 
-/*        opacity: 0.7;*/
+        /*        opacity: 0.7;*/
         transition-duration: 0s;
     }
 
     .box p {
         font-size: 90%;
         color: black;
-        text-align: center;
+        text-align: left;
         margin-bottom: 2em;
+        margin-left: 1.5em;
 
     }
 
     .box h2 {
         width: 18em;
         font-size: 90%;
-        text-align: center;
+        text-align: left;
         color: black;
         margin-top: 0.5em;
         margin-bottom: 0.4em;
