@@ -11,13 +11,17 @@ body {
         z-index: -1;
 
     }
-
+ .shrink{
+    display: block;
+        text-align: center;
+        margin: 2em;
+    
+    }
     .center {
         margin: 2em;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        /* text-align: center; */
         margin-bottom: 6em;
 
     }
@@ -26,7 +30,7 @@ body {
         width: 70%;
         margin: auto;
         text-align: left;
-        font-size: 1.2em;
+        font-size: 1em;
         margin-top: 1.5em;
 
     }
@@ -44,8 +48,8 @@ body {
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
-        height: 30%;
+        width: 20%;
+       height: auto;
         margin-bottom: 0;
     }
 
@@ -71,7 +75,7 @@ body {
         margin-left: auto;
         margin-right: auto;
         text-align: left;
-
+  margin-bottom: 6em;
     }
 
     .center p {
@@ -97,6 +101,12 @@ body {
         margin-right: auto;
         width: 30%;
         height: 30%;
+    }
+    .shrink{
+    display: block;
+        text-align: center;
+        margin: 2em;
+    
     }
 
     h1 {
