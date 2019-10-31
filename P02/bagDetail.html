@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/bagDetailCSS.css" />
     <link rel="stylesheet" type="text/css" href="css/header.css" />
     <script src="css/function.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -27,31 +27,82 @@
     </header>
 
     <body>
+   <div class="mobile">
         <div class="topnav">
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+                <div class="ham" onclick="my(this)">
+                    <div class="ham1"></div>
+                    <div class="ham2"></div>
+                    <div class="ham3"></div>
+                </div>
             </a>
             <div id="myLinks">
                 <p></p>
                 <a href="javascript:void(0);" onclick="mysubFunction()">HANDBAG</a>
                 <div id="mysubs">
-                    <a href="handbag.html">HANDBAG</a>
+                    <a href="handbag.html">View All</a>
+                    <a href="handbag.html">Shoulder Bags</a>
+                    <a href="handbag.html">Totes</a>
+                    <a href="handbag.html">Belt Bags</a>
+                    <a href="handbag.html">Mini Bags</a>
+                    <a href="handbag.html">Satchels</a>
+                    <a href="handbag.html">Clutches</a>
+                    <a href="handbag.html">Diaper Bags</a>
+
 
                 </div>
-                <a href="javascript:void(0);" onclick="mysubFunction()">ACCESSORIES</a>
 
-                <a href="events.html">EVENTS</a>
-                <a href="about.html">ABOUT</a>
-                <div class="mobilelogin">
-                    <a id="log">LOGIN</a>
-                    <a id="log" href="shoppingbag.html">SHOPPING BAG</a>
+
+                <a href="javascript:void(0);" onclick="mysubFunction2()">ACCESSORIES</a>
+                <div id="mysubs2">
+                    <a href="handbag.html">View All</a>
+                    <a href="handbag.html">Jewelry</a>
+                    <a href="handbag.html">Rings</a>
+                    <a href="handbag.html">Leather Goods</a>
+                    <a href="handbag.html">Sunglasses</a>
+                    <a href="handbag.html">Watches</a>
+                    <a href="handbag.html">Tech</a>
+                    <a href="handbag.html">Keyrings</a>
                 </div>
+
+                <a href="javascript:void(0);" onclick="mysubFunction3()">EVENTS</a>
+                <div id="mysubs3">
+                    <a href="events.html">All Events</a>
+                    <a href="events.html">Annual Sales</a>
+                    <a href="events.html">Discount Code</a>
+                    <a href="events.html">Fashion Shows</a>
+                    <a href="events.html">Collection</a>
+                    <a href="events.html">Personalization services</a>
+
+                </div>
+
+
+                <a href="javascript:void(0);" onclick="mysubFunction4()">ABOUT</a>
+                <div id="mysubs4">
+                    <a href="about.html">About Spade</a>
+                    <a href="location.html">Location</a>
+                    <a href="location.html">Contacts</a>
+                    <a href="about.html">Kate Spade Group</a>
+                    <a href="about.html">Student Program</a>
+                    <a href="location.html">Investors</a>
+
+                </div>
+
+
+              
+
+
+
+
+
+
                 <p></p>
 
             </div>
 
         </div>
 
+    </div>
 
 
 
@@ -231,22 +282,22 @@
             <div class="info-text">
                 <h2>toujours large satchel</h2>
                 <p>$398.00</p>
-                                <div class="detail">
+                <div class="detail">
                     <h3>SIZE</h3>
                     <ul>
                         <li>12"h x 14"w x 7"d</li>
                         <li>strap drop: 7.5"</li>
                     </ul>
-               
-                
+
+
                     <h3>MATERIAL</h3>
                     <ul>
                         <li>bouclé fabric</li>
                         <li>enamel spade</li>
                     </ul>
-               
 
-               
+
+
                     <h3>DETAILS</h3>
                     <ul>
                         <li>tote with open top</li>
@@ -267,23 +318,34 @@
         </div>
 
 
-
-
-    <footer>
-        <div class="footnav">
-            <button class="footbt"><a href="styleGuide.html">Style Guide</a>
-            </button>
-            <button class="footbt"><a href="citation.html">Citation</a>
-            </button>
-
-            <button class="footbt"><a href="https://github.com/celia11111/IAT339-Company">Git Repository</a>
-            </button>
-
+        <div class="review">
+            <h4>Reviews</h4>
+            <div class="rate">
+                <label for="subject">Overall Rating</label>
+                <input type="radio" id="5star" name="pay" value="mastercard" checked>
+                <label for="5star">perfect</label>
+                <input type="radio" id="4star" name="pay" value="mastercard" checked>
+                <label for="4star">general</label>
+                <input type="radio" id="3star" name="pay" value="mastercard" checked>
+                <label for="3star">not recommended</label>
+            </div>
+            <textarea id="subject" name="subject" placeholder="Write your feedback"></textarea>
+            <input type="submit" value="Submit">
         </div>
-        <p>
-            2019 kate spade | all rights reserved privacy policy/your ca privacy rights, terms of use & interest based advertising policy, california transparency act & uk modern slavery act statement</p>
-    </footer>
 
-    </body>
+        <footer>
+            <div class="footnav">
+                <button class="footbt"><a href="styleGuide.html">Style Guide</a>
+                </button>
+                <button class="footbt"><a href="citation.html">Citation</a>
+                </button>
 
-</html>
+                <button class="footbt"><a href="https://github.com/celia11111/IAT339-Company">Git Repository</a>
+                </button>
+
+            </div>
+            <p>
+                2019 kate spade | all rights reserved privacy policy/your ca privacy rights, terms of use & interest based advertising policy, california transparency act & uk modern slavery act statement</p>
+        </footer>
+
+    </body></html>
