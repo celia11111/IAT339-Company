@@ -391,6 +391,7 @@ body {
         border: none;
         outline: none;
         color: black;
+        margin-bottom: 
         padding: 1em 1em 0.5em 1em;
         background-color: inherit;
         font: inherit;
@@ -456,6 +457,14 @@ body {
         border-bottom-color: #f66a9b;
         border-bottom-width: medium;
     }
+        .column a:hover {
+        border-bottom: 0.2em;
+        transition: 0.2s;
+        border-bottom-style: solid;
+        border-bottom-color: #f66a9b;
+        border-bottom-width: medium;
+            margin-top: 1em;
+    }
 
     .column p {
         font-size: 0.9em;
@@ -467,6 +476,19 @@ body {
         display: table;
         padding: 0.2em;
 
+    }
+    
+    .column a{
+        font-size: 0.9em;
+        border-bottom: 0.2em;
+        border-bottom-style: solid;
+        border-bottom-color: transparent;
+        border-bottom-width: medium;
+        text-align: left;
+        display: table;
+        padding: 0.2em;
+margin-top: 1em;
+    
     }
 
 
