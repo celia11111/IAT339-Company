@@ -6,74 +6,106 @@
     <title>HandBag</title>
     <link rel="stylesheet" type="text/css" href="css/header.css" />
     <link rel="stylesheet" type="text/css" href="css/bagcss.css" />
-
+<script src="css/function.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-
-            }
-        }
-
-        function mysubFunction() {
-            var x = document.getElementById("mysubs");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-
-            }
-        }
-    </script>
-
+    
 </head>
 
 <body>
-<header>
-    <a class="logo" href="home.html">
-        <img class="logo1" alt="logo" src="img/logo.png">
-    </a>
-    <div class="topright">
-        <img class="right" alt="logo" src="img/login.png">
-        <a href="shoppingbag.html"><img class="right" alt="logo" src="img/icon.png"></a>
-    </div>
 
 
-
-</header>
-
-<body>
-    <div class="topnav">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+    <header>
+        <a class="logo" href="home.html">
+            <img class="logo1" alt="logo" src="img/logo.png">
         </a>
-        <div id="myLinks">
-            <p></p>
-            <a href="javascript:void(0);" onclick="mysubFunction()">HANDBAG</a>
-            <div id="mysubs">
-                <a href="handbag.html">HANDBAG</a>
+        <div class="topright">
+            <img class="right" alt="logo" src="img/login.png">
+            <a href="shoppingbag.html"><img class="right" alt="logo" src="img/icon.png"></a>
+        </div>
+
+
+
+    </header>
+
+    <div class="mobile">
+        <div class="topnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <div class="ham" onclick="my(this)">
+                    <div class="ham1"></div>
+                    <div class="ham2"></div>
+                    <div class="ham3"></div>
+                </div>
+            </a>
+            <div id="myLinks">
+                <p></p>
+                <a href="javascript:void(0);" onclick="mysubFunction()">HANDBAG</a>
+                <div id="mysubs">
+                    <a href="handbag.html">View All</a>
+                    <a href="handbag.html">Shoulder Bags</a>
+                    <a href="handbag.html">Totes</a>
+                    <a href="handbag.html">Belt Bags</a>
+                    <a href="handbag.html">Mini Bags</a>
+                    <a href="handbag.html">Satchels</a>
+                    <a href="handbag.html">Clutches</a>
+                    <a href="handbag.html">Diaper Bags</a>
+
+
+                </div>
+
+
+                <a href="javascript:void(0);" onclick="mysubFunction2()">ACCESSORIES</a>
+                <div id="mysubs2">
+                    <a href="handbag.html">View All</a>
+                    <a href="handbag.html">Jewelry</a>
+                    <a href="handbag.html">Rings</a>
+                    <a href="handbag.html">Leather Goods</a>
+                    <a href="handbag.html">Sunglasses</a>
+                    <a href="handbag.html">Watches</a>
+                    <a href="handbag.html">Tech</a>
+                    <a href="handbag.html">Keyrings</a>
+                </div>
+
+                <a href="javascript:void(0);" onclick="mysubFunction3()">EVENTS</a>
+                <div id="mysubs3">
+                    <a href="events.html">All Events</a>
+                    <a href="events.html">Annual Sales</a>
+                    <a href="events.html">Discount Code</a>
+                    <a href="events.html">Fashion Shows</a>
+                    <a href="events.html">Collection</a>
+                    <a href="events.html">Personalization services</a>
+
+                </div>
+
+
+                <a href="javascript:void(0);" onclick="mysubFunction4()">ABOUT</a>
+                <div id="mysubs4">
+                    <a href="about.html">About Spade</a>
+                    <a href="location.html">Location</a>
+                    <a href="location.html">Contacts</a>
+                    <a href="about.html">Kate Spade Group</a>
+                    <a href="about.html">Student Program</a>
+                    <a href="location.html">Investors</a>
+
+                </div>
+
+
+                <a href="shoppingbag.html">LOGIN</a>
+                <a href="shoppingbag.html">SHOPPING BAG</a>
+
+
+
+
+
+
+                <p></p>
 
             </div>
-            <a href="javascript:void(0);" onclick="mysubFunction()">ACCESSORIES</a>
-
-            <a href="events.html">EVENTS</a>
-            <a href="about.html">ABOUT</a>
-            <div class="mobilelogin">
-                <a id="log">LOGIN</a>
-                <a id="log" href="shoppingbag.html">SHOPPING BAG</a>
-            </div>
-            <p></p>
 
         </div>
 
     </div>
-
-
 
 
 
@@ -91,8 +123,12 @@
                     <div class="row">
 
                         <div class="column">
-                            <p href="shoulderBag.html">View All</p>
-                            <p href="shoulderBag.html">Shoulder Bags</p>
+                            <a href="handbag.html">
+                                <p>View All</p>
+                            </a>
+                            <a href="handbag.html">
+                                <p>Shoulder Bags</p>
+                            </a>
                             <p>Totes</p>
                             <p>Belt Bags</p>
                             <p>Mini Bags</p>
@@ -101,7 +137,6 @@
                         <div class="column">
                             <p>Satchels</p>
                             <p>Clutches</p>
-                            <p>Totes</p>
                             <p>Diaper Bags</p>
 
 
@@ -124,7 +159,7 @@
 
 
             <div class="dropdown">
-                <button class="dropbtn"><a href="accessories.html">ACCESSORIES</a>
+                <button class="dropbtn"><a href="handbag.html">ACCESSORIES</a>
 
                 </button>
                 <div class="dropdown-content">
@@ -132,7 +167,7 @@
                     <div class="row">
 
                         <div class="column">
-                            <p href="jewlry.html">Jewelry</p>
+                            <p>Jewelry</p>
                             <p>Rings</p>
                             <p>Leather Goods</p>
                             <p>Sunglasses</p>
@@ -205,8 +240,12 @@
 
                         <div class="column">
 
-                            <a href="location.html"><p>Location</p></a>
-                            <a href="location.html"><p>Contacts</p></a>
+                            <a href="location.html">
+                                <p>Location</p>
+                            </a>
+                            <a href="location.html">
+                                <p>Contacts</p>
+                            </a>
                             <p>Kate Spade Group</p>
                             <p>Student Program</p>
                             <p>Investors</p>
@@ -342,5 +381,18 @@
         <a class="addtobag" href="#">Discover More</a>
 
     </div>
+    <footer>
+        <div class="footnav">
+            <button class="footbt"><a href="styleGuide.html">Style Guide</a>
+            </button>
+            <button class="footbt"><a href="citation.html">Citation</a>
+            </button>
 
+            <button class="footbt"><a href="https://github.com/celia11111/IAT339-Company">Git Repository</a>
+            </button>
+
+        </div>
+        <p>
+            2019 kate spade | all rights reserved privacy policy/your ca privacy rights, terms of use & interest based advertising policy, california transparency act & uk modern slavery act statement</p>
+    </footer>
 </body></html>
