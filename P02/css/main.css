@@ -3,9 +3,10 @@
   Default styling for the style guide
 */
 body {
-    font-family: futura-pt, sans-serif;
-    padding: 3rem;
-    margin: 1rem;
+  font-family: 'Didact Gothic', sans-serif;
+
+  padding: 3rem;
+  margin: 1rem;
 }
 
 .element {
@@ -94,26 +95,27 @@ p.center {
     color: #FF669C;
 }
 
-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 5px;
-    text-align: center;
-    /* color:#AC0A1D */
-}
-
-nav a {
-    padding: 10px 15px;
-    line-height: 1.3em;
+.topnav{
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+  /* background-color: #F8BACA; */
 
 }
 
-
-nav a:hover,
-nav a:focus {
-    text-decoration: none;
+.topnav a {
+padding:10px 15px;
+	line-height: 1.3em;
+  /* color:black; */
 
 }
+
+
+/* nav a:hover, nav a:focus {
+  text-decoration: none;
+
+} */
 
 code {
     background-color: #EEE;
@@ -140,20 +142,19 @@ code {
 }
 
 .w3-btn {
-    display: inline-block;
-    padding: 0.5rem;
-    border-radius: 10px;
-    border-color: rgb(230, 101, 140);
-    background-color: white;
-    text-decoration: none;
-    transition-property: background-color;
-    /* transition-duration: 0.5s; */
-    text-align: center;
+  border-radius:10px;
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color:  rgb(230,101,140);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  text-align:center;
 }
 
-.w3-btn:hover,
-.w3-btn:focus {
-    background-color: pink;
+.w3-btn:hover,.w3-btn:focus{
+  background-color: rgba(233, 113, 149,0.5);
 }
 
 li {
@@ -165,10 +166,10 @@ a {
     color: #FF669C;
 }
 
-a:hover {
-    background-color: pink;
-    text-decoration: none;
-    text-align: center;
+a:hover{
+  /* background-color: pink; */
+  text-decoration: none;
+  text-align: center;
 }
 
 a:link {
@@ -186,8 +187,8 @@ a:link img {
 }
 
 a:hover img {
-    box-shadow: 0 0 2px 2px rgba(233, 113, 149, 0.5);
-    /* filter: alpha(opacity=60); /* For IE8 and earlier */
+/* box-shadow: 0 0 2px 2px rgba(233, 113, 149,0.5); */
+  /* filter: alpha(opacity=60); /* For IE8 and earlier */
 
 }
 
@@ -321,6 +322,67 @@ input[type=text]:focus {
 
 li {
     list-style: none;
+}
+
+
+.topnav #mysubs a:hover,
+#mysubs2 a:hover,
+#mysubs3 a:hover,
+#mysubs4 a:hover {
+
+
+    border-bottom: 0.2em;
+    transition: 0.2s;
+    border-bottom-style: solid;
+    border-bottom-color: #f66a9b;
+    border-bottom-width: medium;
+}
+
+.topnav #mysubs a,
+#mysubs2 a,
+#mysubs3 a,
+#mysubs4 a {
+
+
+    border-bottom: 0.2em;
+    transition: 0.2s;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    border-bottom-width: medium;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    width: 7em;
+    height: 4em;
+    margin: auto;
+}
+
+
+
+.logo img {
+    display: block;
+    position: relative;
+    width: 7em;
+    height: 4em;
+    margin: auto;
+}
+
+
+.topright img {
+    width: 1em;
+    margin: 0.5em;
+
+}
+
+.topright img:hover,
+.topright img:focus {
+    width: 1em;
+    margin: 0.5em;
+    opacity: 0.7;
+
+
 }
 
 /*
