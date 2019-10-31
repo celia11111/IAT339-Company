@@ -26,7 +26,7 @@ body {
         margin-top: 3em;
         margin-left: 12%;
          margin-right: 12%;
-        
+
 
     }
 
@@ -119,6 +119,25 @@ body {
 
 
     }
+    .addtobag {
+        display: inline-block;
+        border: none;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        color: white;
+        background-color: rgb(230, 101, 140);
+        text-decoration: none;
+        transition-property: background-color;
+        transition-duration: 0.5s;
+        text-align: center;
+    }
+
+    .addtobag:hover,
+    .addtobag:focus {
+        background-color: rgba(233, 113, 149, 0.5);
+    }
 }
 
 @media screen and (max-width: 1120px) {
@@ -140,7 +159,7 @@ body {
         margin-top: 3em;
        margin-left: 16%;
          margin-right: 16%;
-        
+
 
     }
 
@@ -152,7 +171,7 @@ body {
         align-content: flex-start;
         justify-content: space-evenly;
         margin: 0em 10em;
-      
+
 
 
     }
@@ -232,5 +251,24 @@ body {
         opacity: 0.7;
 
 
+    }
+    .addtobag {
+        display: inline-block;
+        border: none;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        color: white;
+        background-color: rgb(230, 101, 140);
+        text-decoration: none;
+        transition-property: background-color;
+        transition-duration: 0.5s;
+        text-align: center;
+    }
+
+    .addtobag:hover,
+    .addtobag:focus {
+        background-color: rgba(233, 113, 149, 0.5);
     }
 }
