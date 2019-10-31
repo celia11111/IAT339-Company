@@ -1,11 +1,4 @@
-body {
-    /*    font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
-    font-weight: 400;
-    margin: 0em;
-    background-color: #fef9fc;
-    font-family: 'Didact Gothic', sans-serif;
 
-}
 
 @media screen and (min-width: 1120px) {
     .result {
@@ -95,8 +88,8 @@ body {
 
     .total {
         text-align: right;
-        margin-right: 5em;
-        font-size: 2em;
+        margin-right: 6em;
+        font-size: 1.6em;
     }
 
     .checkout {
@@ -162,25 +155,7 @@ body {
         margin-bottom: 0em;
     }
 
-    .clear {
-        text-align: right;
-        margin: 1em 1em 0em 1em;
-        width: auto;
 
-    }
-
-
-    .clear button {
-        background-color: transparent;
-        border-color: gray;
-        border-width: thin;
-        opacity: 0.7;
-    }
-
-    .clear button:hover,
-    .clear button:focus {
-        opacity: 1;
-    }
 
     .list {
         height: auto;
@@ -201,6 +176,7 @@ body {
     .listc h3 {
         font-size: 1em;
         text-align: center;
+        margin-left: 1.5em;
     }
 
     .list img {
@@ -223,7 +199,7 @@ body {
     .total {
         text-align: right;
         margin-right: 1em;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .checkout {
@@ -357,8 +333,8 @@ body {
 
     .total {
         text-align: right;
-        margin-right: 3em;
-        font-size: 1.5em;
+        margin-right: 2em;
+        font-size: 1.2em;
     }
 
     .checkout {
