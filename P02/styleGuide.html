@@ -7,6 +7,8 @@
     <title>Style Guide</title>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/grids.css" />
+    <script src="css/function.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -14,9 +16,11 @@
 <body>
 
     <header>
-        <img alt="logo" src="img/logo.png" width="150" height="150" class="center">
-
-        <div class="nav">
+            <a class="logo" href="home.html">
+                <img class="logo1" alt="logo" src="img/logo.png">
+            </a>
+        <div class="topnav">
+          <div id="mysubs">
             <nav>
                 <a href="#interactive_elements">COMPANY</a>
                 <a href="#text_elements">DESIGN</a>
@@ -26,10 +30,11 @@
                 <a href="#contact">CONTACT</a>
                 <a href="#citations">CITATIONS</a>
             </nav>
+          </div>
         </div>
 
 
-
+<p></p>
         SEARCH
         <input id="demo-input" type="text">
     </header>
@@ -117,18 +122,18 @@
 
         <section class="element">
             <h3>Typography</h3>
-            <p>San-serif typeface is readable and suitable for katespade website. We use <a href="https://fonts.adobe.com/fonts/futura-pt">FuturaPT</a> as the main font.</p>
-            <p>In-text hierarchy is also a primary way to communicate. Our website applies <strong>FuturaPT-Bold</strong>, FuturaPT-Light and FuturaPT-Medium. We also applied different sizes of typeface for better communication.</p>
+            <p>San-serif typeface is readable and suitable for katespade website. We use <a href="https://fonts.google.com/specimen/Didact+Gothic">Didact Gothic</a> as the main font.</p>
+            <p>In-text hierarchy is also a primary way to communicate. Our website applies <strong>Didact Gothic-Bold</strong>, Didact Gothic-Light and Didact Gothic-Medium. We also applied different sizes of typeface for better communication.</p>
 
-            <h1>FuturaPT</h1>
-            <h5>FuturaPT</h5>
-            <h6>FuturaPT</h6>
-            <h4>FuturaPT</h4>
+            <h1>Didact Gothic</h1>
+            <h5>Didact Gothic</h5>
+            <h6>Didact Gothic</h6>
+            <h4>Didact Gothic</h4>
 
         </section>
 
         <h4>Sample code:</h4>
-        <code>&lt; font-family: font-family: Futura, "Trebuchet MS", Arial, sans-serif&gt;</code>
+        <code>&lt; font-family: 'Didact Gothic', sans-serif;&gt;</code>
         <code>p {
             margin-top: 0;
             padding=0;
@@ -207,10 +212,10 @@
                 <div class="w3-container">
                     <h4>button idea examples:</h4>
                     <ol>
-                        <li><img alt="button" src="img/button.png"></li>
+                        <li><a href="#"><img alt="button" src="img/button.png"></a</li>
                         <li><a class="button-nav" href="#">button</a></li>
                         <li>
-                            <p><button class="w3-btn">button</button></p>
+                            <p><a class="w3-btn">button</a></p>
                         </li>
                     </ol>
                 </div>
@@ -251,6 +256,19 @@
         </section>
 
     </section>
+
+
+
+    <section class="element">
+        <h3>Button and Icons</h3>
+        <div class="topright">
+        <a href="#"><img class="right" alt="logo" src="img/login.png"></a>
+        <a href="shoppingbag.html"><img class="right" alt="logo" src="img/icon.png"></a>
+</div>
+      </section>
+
+
+
 
     <!-- COMBINED ELEMENTS SECTION // -->
     <section id="combined_elements">
@@ -345,7 +363,7 @@
         <ul>
             <li>Style guide idea from Polaris Shopify. Website: <a href="https://polaris.shopify.com">https://polaris.shopify.com</a></li>
             <li>Company Kate Spade New York. Website: <a href="https://www.katespade.com">https://www.katespade.com</a></li>
-            <li>Font retrieve from:<a href="https://fonts.adobe.com/fonts/futura-pt">https://fonts.adobe.com/fonts/futura-pt</a></li>
+            <li>Font retrieve from:<a href="https://fonts.google.com/specimen/Didact+Gothic">https://fonts.google.com/specimen/Didact+Gothic</a></li>
             <li>Kate Spade resources from:<a href="https://en.wikipedia.org/wiki/Kate_Spade_New_York#Merchandise">https://en.wikipedia.org/wiki/Kate_Spade_New_York#Merchandise</a></li>
             <li>Kate Spade colour resources from:<a href="http://www.paobuhu.info/kate-spade-color-palette/"> http://www.paobuhu.info/kate-spade-color-palette/</a></li>
             <li>Hover code from:<a href="https://www.w3schools.com/howto/howto_css_image_overlay.asp">https://www.w3schools.com/howto/howto_css_image_overlay.asp</a></li>
