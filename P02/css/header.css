@@ -7,7 +7,7 @@ body {
 
 @media screen and (max-width: 1120px) {
 
-   .topright {
+    .topright {
         z-index: 222;
         position: absolute;
         right: 1em;
@@ -221,8 +221,19 @@ body {
 
     }
 
-    .footbt {
 
+
+    footer {
+        width: 100%;
+        height: 4em;
+        background-color: #FCEFF3;
+        font-size: 0.8em;
+        padding: 2em 0em 4em 0em;
+        text-align: center;
+        margin: 0;
+    }
+
+    .footbt {
         height: auto;
         font-size: 1.2em;
         border: none;
@@ -234,7 +245,8 @@ body {
         border-bottom-color: transparent;
     }
 
-    .footbt:hover {
+    .footbt:hover,
+    .footbt:focus {
         height: auto;
         font-size: 1.2em;
         border: none;
@@ -469,15 +481,15 @@ body {
 
     }
 
-footer {
-    width: 100%;
-    height: 4em;
-    background-color: #FCEFF3;
-    font-size: 0.8em;
-    padding: 2em 0em 4em 0em;
-    text-align: center;
-    margin: 0;
-}
+    footer {
+        width: 100%;
+        height: 4em;
+        background-color: #FCEFF3;
+        font-size: 0.8em;
+        padding: 2em 0em 4em 0em;
+        text-align: center;
+        margin: 0;
+    }
 
     .footbt {
         height: auto;
