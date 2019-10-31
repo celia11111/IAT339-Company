@@ -1,13 +1,16 @@
 body {
-    /*    font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
     font-weight: 400;
     margin: 0em;
     background-color: #fef9fc;
-
 }
-
-
-
+.bt {
+    display: block;
+   
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
 @media screen and (min-width: 1120px) {
     .result {
         position: relative;
@@ -16,15 +19,28 @@ body {
 
     }
 
+}
 
+@media screen and (max-width: 1120px) {
+    .result {
+        position: relative;
+        height: 4em;
+        z-index: -1;
+
+    }
+
+}
+
+@media screen and (min-width: 722px) {
     .pay {
+
         position: static;
         width: auto;
         height: auto;
         display: flex;
         flex-flow: nowrap;
         align-items: center;
-        /* padding-left: 2em; */
+
     }
 
 
@@ -34,13 +50,12 @@ body {
         width: 100%;
         margin-left: 8%;
         margin-right: 8%;
-        justify-content: center;
+        justify-content: flex-start;
         display: flex;
         flex-flow: row wrap;
     }
 
     .address {
-
         width: 40%;
         height: auto;
         display: inline-block;
@@ -57,8 +72,13 @@ body {
 
     }
 
+    .address label {
+        margin-top: 0.7em;
+
+    }
+
     .name input {
-        margin: 0.4em 0em;
+        margin: 0.8em 0em;
         width: 16em;
         background-color: white;
         border-style: solid;
@@ -70,7 +90,6 @@ body {
     .address2 {
         width: 40%;
         height: auto;
-        width: 80%;
         margin: 0;
     }
 
@@ -91,9 +110,8 @@ body {
         width: 100%;
         height: auto;
         display: flex;
-        justify-content: flex-start;
         flex-flow: row wrap;
-        margin: 0;
+
     }
 
     .card input {
@@ -110,22 +128,21 @@ body {
         border-style: solid;
         border-color: black;
         border-width: 0.01em;
-        width: 15.5em;
+        width: 21em;
         height: 1.8em;
         margin-right: 1em;
 
     }
 
     .cardType {
-        margin: 0.5em;
-        text-align: center;
+        display: flex;
+        margin-top: 0.8em;
 
     }
 
-    .cardType input {
-        margin-left: 1em;
-    }
+    .cardType input {}
 
+/*
     .addtobag {
         display: inline-block;
         border: none;
@@ -137,5 +154,139 @@ body {
         text-decoration: none;
         text-align: center;
     }
+*/
 
 }
+
+@media screen and (max-width: 722px) {
+    .pay {
+
+        position: static;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-flow: nowrap;
+        align-items: center;
+
+    }
+
+
+
+    .sp {
+        height: auto;
+        width: 100%;
+        margin-left: 8%;
+        margin-right: 8%;
+        justify-content: flex-start;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .address {
+        width: 40%;
+        height: auto;
+        display: inline-block;
+        margin: 0;
+
+
+    }
+
+    .name {
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+        height: auto;
+
+
+    }
+
+    .address label {
+        margin-top: 0.7em;
+
+    }
+
+    .name input {
+        margin: 0.8em 0em;
+        width: 34.5em;
+        background-color: white;
+        border-style: solid;
+        border-color: black;
+        border-width: 0.01em;
+        height: 1.8em;
+    }
+
+    .address2 {
+        width: 40%;
+        height: auto;
+        margin: 0;
+    }
+
+    .address2 p {
+        margin-top: 0.3em;
+
+    }
+
+    .address2 input {
+        border-style: solid;
+        border-color: black;
+        border-width: 0.01em;
+        height: 1.8em;
+        width: 34.5em;
+    }
+
+    .method {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+
+    }
+
+    .card input {
+        height: 1.8em;
+        width: 34.5em;
+        margin-right: 2em;
+        border-style: solid;
+        border-color: black;
+        border-width: 0.01em;
+
+    }
+
+    .num input {
+        border-style: solid;
+        border-color: black;
+        border-width: 0.01em;
+        width: 16.5em;
+        height: 1.8em;
+        margin-right: 1em;
+
+    }
+
+    .cardType {
+        display: flex;
+        margin-top: 0.8em;
+
+    }
+
+    .cardType input {}
+
+    
+
+}
+
+    .addtobag {
+        display: block;
+        border: none;
+        width: 14em;
+        height: 2.5em;
+        padding-top: 1em;
+        color: white;
+        background-color: rgb(230, 101, 140);
+        text-decoration: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+    }
+
+
