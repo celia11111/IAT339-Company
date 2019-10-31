@@ -5,12 +5,14 @@
         z-index: -1;
 
     }
- .shrink{
-    display: block;
+
+    .shrink {
+        display: block;
         text-align: center;
         margin: 2em;
 
     }
+
     .center {
         margin: 2em;
         display: block;
@@ -26,6 +28,7 @@
         text-align: left;
         font-size: 1em;
         margin-top: 1.5em;
+        letter-spacing: 0.04em;
 
     }
 
@@ -43,7 +46,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 31%;
-       height: auto;
+        height: auto;
         margin-bottom: 0;
     }
 
@@ -52,6 +55,7 @@
         text-decoration: none;
         color: #FF669C;
         text-align: center;
+        font-weight: bold;
     }
 }
 
@@ -69,7 +73,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: left;
-  margin-bottom: 5em;
+        margin-bottom: 5em;
     }
 
     .center p {
@@ -77,6 +81,7 @@
         margin: auto;
         font-size: 1em;
         margin-top: 1.3em;
+        letter-spacing: 0.04em;
     }
 
     .center img {
@@ -95,8 +100,9 @@
         width: 30%;
         height: 30%;
     }
-    .shrink{
-    display: block;
+
+    .shrink {
+        display: block;
         text-align: center;
         margin: 2em;
 
@@ -107,6 +113,7 @@
         text-decoration: none;
         color: #FF669C;
         text-align: center;
+        font-weight: bold;
     }
 
 }

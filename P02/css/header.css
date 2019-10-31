@@ -98,7 +98,7 @@ body {
     #mysubs3,
     #mysubs4 {
         display: none;
-        font-size: 0.8em;
+        font-size: 0.9em;
         margin-left: 2em;
         border-bottom: 0.2em;
         transition: 0.2s;
@@ -109,7 +109,6 @@ body {
     #mysubs2 a:hover,
     #mysubs3 a:hover,
     #mysubs4 a:hover {
-
 
         border-bottom: 0.2em;
         transition: 0.2s;
@@ -347,6 +346,9 @@ body {
         margin: auto;
         text-align: center;
         text-decoration: none;
+        font-size: 1em;
+        font-kerning: auto;
+       
 
     }
 
