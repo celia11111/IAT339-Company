@@ -219,8 +219,20 @@ body {
     }
 
     #log {
-        display: inline-block;
-        background-color: aliceblue;
+     
+        width: auto;
+        height: auto;
+        border-bottom: 0.2em;
+        border-bottom-style: solid;
+        border-bottom-color: transparent;
+        border-bottom-width: thick;
+        color: black;
+        padding-bottom: 0.5em;
+        margin: 0.5em 0.8em 0.5em 2.5em;
+        text-decoration: none;
+        font-size: 1em;
+        display: table;
+        
 
     }
 
