@@ -115,15 +115,15 @@
     .addtobag {
         display: inline-block;
         border: none;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         padding-left: 5%;
         padding-right: 5%;
         color: white;
         background-color: rgb(230, 101, 140);
         text-decoration: none;
         transition-property: background-color;
-        transition-duration: 0.5s;
+        transition-duration: 0.3s;
         text-align: center;
     }
 
@@ -248,15 +248,15 @@
     .addtobag {
         display: inline-block;
         border: none;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         padding-left: 5%;
         padding-right: 5%;
         color: white;
         background-color: rgb(230, 101, 140);
         text-decoration: none;
         transition-property: background-color;
-        transition-duration: 0.5s;
+        transition-duration: 0.3s;
         text-align: center;
     }
 
