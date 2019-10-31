@@ -18,6 +18,35 @@ function mysubFunction() {
     }
 }
 
+function mysubFunction2() {
+    var x = document.getElementById("mysubs2");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+
+    }
+}
+
+function mysubFunction3() {
+    var x = document.getElementById("mysubs3");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+
+    }
+}
+function mysubFunction4() {
+    var x = document.getElementById("mysubs4");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+
+    }
+}
+
 function my(x) {
-  x.classList.toggle("change");
+    x.classList.toggle("change");
 }

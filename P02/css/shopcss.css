@@ -88,8 +88,8 @@
 
     .total {
         text-align: right;
-        margin-right: 5em;
-        font-size: 2em;
+        margin-right: 6em;
+        font-size: 1.6em;
     }
 
     .checkout {
@@ -199,7 +199,7 @@
     .total {
         text-align: right;
         margin-right: 1em;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .checkout {
@@ -333,8 +333,8 @@
 
     .total {
         text-align: right;
-        margin-right: 3em;
-        font-size: 1.5em;
+        margin-right: 2em;
+        font-size: 1.2em;
     }
 
     .checkout {

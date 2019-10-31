@@ -70,7 +70,7 @@ body {
 
     h3 {
         /* padding-left:2em; */
-        font-size: 12px;
+        font-size: 1em;
         text-align: left;
     }
 
@@ -211,10 +211,12 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        font-size: 1em;
+        font-size: 0.8em;
 
     }
         
 
     }
+
+
 
